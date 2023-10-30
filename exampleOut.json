@@ -1,0 +1,1317 @@
+var url = 'https://newsapi.org/v2/everything?' +
+          'q=Apple&' +
+          'from=2023-10-30&' +
+          'sortBy=popularity&' +
+          'apiKey=657c6c13f2c34066ae90d51a6dcb9f12';
+
+var req = new Request(url);
+
+fetch(req)
+    .then(function(response) {
+        console.log(response.json());
+    })
+Example response
+{
+"status": "ok",
+"totalResults": 191,
+"articles": [
+{
+"source": {
+"id": null,
+"name": "Gizmodo.jp"
+},
+"author": "はらいさん",
+"title": "Apple Watch Ultraの新モデル、来年は発売されないかも",
+"description": "Apple Watch Ultra 3は来年ではなく2025年のリリースになりそう。",
+"url": "https://www.gizmodo.jp/2023/10/next-apple-watch-ultra-2025.html",
+"urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2023/10/27/Apple-Watch-Ultra-2-side-button-Digital-Crown-230912.jpg?w=1280&h=630&f=jpg",
+"publishedAt": "2023-10-30T05:00:00Z",
+"content": "1Apple Watch Ultra 2Apple Watch Ultra2025\r\nAppleAppleApple Watch Ultra 312\r\nApple Watch Ultra 3LED\r\nApple Watch UltraUltra 2Ultra\r\nApple Watch10Apple Watch XApple\r\nSource: MacRumors"
+},
+{
+"source": {
+"id": null,
+"name": "Theregister.com"
+},
+"author": "Simon Sharwood",
+"title": "Fujitsu public cloud to be absorbed into main biz, then refreshed",
+"description": "PLUS: Hikvision accused of targeting minorities; Australia's 'cyber-shield'; Huawei's superchip source revealed?\nAsia In Brief Fujitsu has decided to conduct an \"absorption-type merger\" of its public cloud operation.…",
+"url": "https://www.theregister.com/2023/10/30/asia_tech_news_in_brief/",
+"urlToImage": "https://regmedia.co.uk/2023/06/19/shutterstock_asia_abstract_map.jpg",
+"publishedAt": "2023-10-30T00:18:19Z",
+"content": "Asia In Brief Fujitsu has decided to conduct an \"absorption-type merger\" of its public cloud operation.\r\nThe Japanese giant's cloud operates in its home nation, where it offers a modest array of IaaS… [+5358 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Small Business Trends"
+},
+"author": "Liane Lonergan",
+"title": "4K Projectors: Great Picks for Your Business Presentations",
+"description": "As a business, you can always spruce up your presentation using 4K projectors for good effect. Here are the best 4K projectors for your business.",
+"url": "https://smallbiztrends.com/2023/10/4k-projectors.html",
+"urlToImage": "https://media.smallbiztrends.com/2022/07/ViewSonic-M2-1080p-Portable-Projector-with-1200-LED-Lumens.png",
+"publishedAt": "2023-10-30T01:45:11Z",
+"content": "If you buy something through our links, we may earn money from our affiliate partners. Learn more.\r\nUsing 4K projectors can bring extra life to your business presentations. You can use projectors for… [+11318 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Caschys Blog"
+},
+"author": "caschy",
+"title": "Resident Evil Village startet auf dem iPhone und dem iPad",
+"description": "Capcom hat Resident Evil Village im Apple App Store freigeschaltet, was bedeutet, dass alle Interessierten das Spiel ab sofort auf dem iPhone und iPad spielen können. Die App ist kostenlos im App Store, aber nur ein Teil der Hauptgeschichte kann...Zum Beitrag…",
+"url": "https://stadt-bremerhaven.de/resident-evil-village-startet-auf-dem-iphone-und-dem-ipad/",
+"urlToImage": "https://stadt-bremerhaven.de/wp-content/uploads/2021/05/Resident-Evil-Village-2.jpg",
+"publishedAt": "2023-10-30T05:44:51Z",
+"content": "Capcom hat Resident Evil Village im Apple App Store freigeschaltet, was bedeutet, dass alle Interessierten das Spiel ab sofort auf dem iPhone und iPad spielen können. Die App ist kostenlos im App Sto… [+1725 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Wwwhatsnew.com"
+},
+"author": "Juan Diego Polo",
+"title": "Tecnología de reconocimiento de escritura, opciones y tendencias",
+"description": "El reconocimiento de escritura es una de las áreas más fascinantes y en rápido desarrollo dentro del campo de la inteligencia artificial y el procesamiento de datos. Esta tecnología tiene el potencial de transformar la forma en que interactuamos con las máqui…",
+"url": "https://wwwhatsnew.com/2023/10/30/tecnologia-de-reconocimiento-de-escritura-opciones-y-tendencias/",
+"urlToImage": "https://wwwhatsnew.com/wp-content/uploads/2023/10/reconocer-texto.jpg",
+"publishedAt": "2023-10-30T02:00:30Z",
+"content": "El reconocimiento de escritura es una de las áreas más fascinantes y en rápido desarrollo dentro del campo de la inteligencia artificial y el procesamiento de datos. Esta tecnología tiene el potencia… [+14985 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Slickdeals.net"
+},
+"author": "f12_26",
+"title": "ESR Apple iPhone Cases for iPhone 14/13/12/11 Series from $3",
+"description": "Solodream US Store via Amazon has select ESR Apple iPhone 14/13/12/11 Cases on sale when you apply the corresponding coupons (found on the product page) and promotion codes listed below at checkout. S ...",
+"url": "https://slickdeals.net/f/17020462-esr-apple-iphone-cases-for-iphone-14-13-12-11-series-from-3",
+"urlToImage": "https://static.slickdealscdn.com/attachment/3/4/2/9/3/0/8/14435773.attach",
+"publishedAt": "2023-10-30T00:55:00Z",
+"content": "Solodream US Store via Amazon has select ESR Apple iPhone 14/13/12/11 Cases on sale when you apply the corresponding coupons (found on the product page) and promotion codes listed below at checkout. … [+1250 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "01net.com"
+},
+"author": "Mickael Bazoge",
+"title": "La matinale de 01net : Moustache J, big-bang tarifaire sur Disney+, Intel et les puces ARM",
+"description": "Bonjour à tous, voici la matinale de 01net ! Voici toute l’actu à savoir pour démarrer la journée du bon pied.",
+"url": "https://www.01net.com/actualites/la-matinale-de-01net-moustache-j-big-bang-tarifaire-sur-disney-intel-et-les-puces-arm.html",
+"urlToImage": "https://www.01net.com/app/uploads/2023/10/01net-Morning-6.jpg",
+"publishedAt": "2023-10-30T06:01:50Z",
+"content": "Bonjour à tous, voici la matinale de 01net ! Voici toute lactu à savoir pour démarrer la journée du bon pied.La citation du jour\r\n« On doit se protéger contre des distorsions ». Mathieu Duchâtel de l… [+1734 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Digiday"
+},
+"author": "Sara Guaglione",
+"title": "As news aggregator referral traffic slips, publishers turn their attention inward",
+"description": "Traffic sent from news aggregators to publishers’ sites is stalling, according to four publishing execs and data from analytics firm Chartbeat, leading some publishers to reevaluate their content distribution and revenue share deals.",
+"url": "http://digiday.com/media/as-news-aggregator-referral-traffic-slips-publishers-turn-their-attention-inward/",
+"urlToImage": "https://digiday.com/wp-content/uploads/sites/3/2023/09/dog-reading-newspaper-digiday.jpg",
+"publishedAt": "2023-10-30T04:01:00Z",
+"content": "Traffic sent from news aggregators to publishers sites is stalling, according to four publishing execs and data from analytics firm Chartbeat. Traffic driven by news aggregators as a percent of total… [+5016 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Digiday"
+},
+"author": "Seb Joseph",
+"title": "Behind the numbers: unmasking the complex reality of platform advertising",
+"description": "The narratives around these platforms are a lot more complicated nowadays, highlighting how they are increasingly susceptible to the fluctuations of the broader market.",
+"url": "http://digiday.com/marketing/behind-the-numbers-unmasking-the-complex-reality-of-platform-advertising/",
+"urlToImage": "https://digiday.com/wp-content/uploads/sites/3/2022/09/eye-platforms.jpg",
+"publishedAt": "2023-10-30T04:01:00Z",
+"content": "You know it’s a pretty good time for advertising on platforms when even Snapchat manages to pull off a solid quarter.The mobile messaging app saw revenue rise 5% in the third quarter following two st… [+6753 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Appbank.net"
+},
+"author": "岩佐",
+"title": "Appleイベント：10月31日発表の〝新製品リスト〟がリークされる",
+"description": "Appleは10月31日に新製品発表イベントを開催する予定です。このイベントで発表されそうな製品について、Apple専門メディア「MacRumors」が中国の規制データベースからリストを発見しています。 *Categor […]",
+"url": "https://www.appbank.net/2023/10/30/technology/2607033.php",
+"urlToImage": "https://www.appbank.net/wp-content/uploads/2023/10/2023-1030-MacBook-thumb-1.jpeg",
+"publishedAt": "2023-10-30T02:48:12Z",
+"content": "Apple1031AppleMacRumors\r\n*Category:\r\n Technology *SourceMacRumors ,Weibo ,Bloomberg\r\n1031Mac\r\nMacRumorsApple2Apple\r\n14MacBook Pro16MacBook ProMagic KeyboardiPad mini2021202310\r\nResubmitted battery fi… [+645 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Googlewatchblog.de"
+},
+"author": "Jens",
+"title": "Irre Zahlen: Google zahlt Apple 18 Milliarden Dollar pro Jahr für die Standardsuchmaschine auf dem iPhone",
+"description": "Google soll Apple zuletzt 18 Milliarden Dollar pro Jahr gezahlt haben, um weiterhin die Standardsuchmaschine auf dem iPhone und im Safari-Browser zu bleiben. Das sind schon wahnsinnige Dimensionen.Irre Zahlen: Google zahlt Apple 18 Milliarden Dollar pro Jahr …",
+"url": "https://www.googlewatchblog.de/?p=213489",
+"urlToImage": "https://www.googlewatchblog.de/wp-content/uploads/apple-money-2.jpg",
+"publishedAt": "2023-10-30T06:00:27Z",
+"content": "Google ist die mit Abstand größte und meistgenutzte Suchmaschine weltweit und investiert irre Summen dafür, damit das noch lange so bleibt. Schon seit langer Zeit ist bekannt, dass das Unternehmen me… [+1845 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Livedoor.biz"
+},
+"author": "news4vip2",
+"title": "Qualcomm、AppleやIntelに勝利宣言！CPUでもGPUでも圧勝ｗｗｗｗｗ",
+"description": "1: Intelの倒し方知ってるの？(ジパング) [FR]  2023/10/26(木) 08:57:22.96 ID:f3u9coIl0 BE:754019341-PLT(12346)  sssp://img.5ch.net/ico/zusagiko.gif  CPUもGPUもライバル完封。Qualcomm、AppleやIntelに勝利宣言    https://pc.watch.impress.co.jp/docs/news/1541796",
+"url": "http://news4vip.livedoor.biz/archives/52508913.html",
+"urlToImage": "https://livedoor.blogimg.jp/news4vip2/imgs/b/1/b160c73e-s.png",
+"publishedAt": "2023-10-30T02:30:12Z",
+"content": "sssp://img.5ch.net/ico/zusagiko.gif CPUGPUQualcommAppleIntel https://pc.watch.impress.co.jp/docs/news/1541796.html\r\nQualcomm ()Qualcomm CEO () The new CPU leader in mobile computingAppleIntel \r\nQualc… [+87 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Men's Journal"
+},
+"author": "Christopher Friedmann",
+"title": "The Macallan's New Fine & Rare 1997 Is Star-Studded—and Expensive",
+"description": "It's a relative steal within the world's most expensive Scotch series.",
+"url": "https://www.mensjournal.com/food-drink/the-maccallan-fine-and-rare-1997",
+"urlToImage": "https://www.mensjournal.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MjAxNzcxMzI0NTg5MjIxMjc4/the-maccallan-fine--rare-1997.jpg",
+"publishedAt": "2023-10-30T00:00:00Z",
+"content": "The Macallan Fine &amp; Rare Collection is the world’s most expensive whiskey series and includes the world’s most expensive single malt—the 1926 bottling—which auctions for a million-plus dollars ea… [+2190 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Cool3c.com"
+},
+"author": "Chevelle.fu",
+"title": "高通以兩種參考設計真實世界跑分大秀 Snapdragon X Elite 效能肌肉， CPU 單核媲美 Intel 桌上型處理器表現、 AI 性能輾壓所有競品",
+"description": "以往高通 Qualcomm 在介紹行動 PC 平台時多半對效能跑分較為輕描淡寫，把產品重心放在連網能力與續航力；然而第一款採用自主研發 CPU 架構的 Snapdragon X Elite 則來勢洶洶，直接在 2023 年 10 月底的 Snapdragon Summit 2023 秀出數據左打 AMD 與 Intel 的 x86 處理器、右踹蘋果 Apple M 處理器，不過只公布數據當然是不夠的，高通在 Snapdragon Summit 2023 的最後一天秘密邀請技術相關編輯直接觀看官方工作人員的實機效能…",
+"url": "https://www.cool3c.com/article/202237",
+"urlToImage": "https://sw.cool3c.com/user/29442/2023/d399372e-4357-406e-9e93-f86e4bcdfa99.jpg?auto=compress&fix=max&w=2560",
+"publishedAt": "2023-10-30T01:00:00Z",
+"content": "Qualcomm PC CPU Snapdragon X Elite 2023 10 Snapdragon Summit 2023 AMD Intel x86 Apple M Snapdragon Summit 2023 Cinebench 2024 Intel i9 Oryon \r\n80W 23W \r\n15.6 4K AUO\r\nLinux i9-13980HX\r\nWindows 23W i7-… [+238 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Olhardigital.com.br"
+},
+"author": "Matheus Chaves",
+"title": "Você sabia que essas 5 coisas estragam a câmera do seu celular?",
+"description": "Você sabia que existem coisas que podem estragar a câmera do seu celular? Confira 5 delas e previna possíveis prejuízos\nO post Você sabia que essas 5 coisas estragam a câmera do seu celular? apareceu primeiro em Olhar Digital.",
+"url": "https://olhardigital.com.br/2023/10/29/dicas-e-tutoriais/voce-sabia-que-essas-5-coisas-estragam-a-camera-do-seu-celular/",
+"urlToImage": "https://proxy.olhardigital.com.br/wp-content/uploads/2023/10/city-1284260_1280.jpg",
+"publishedAt": "2023-10-30T00:20:00Z",
+"content": "A cÃ¢mera fotogrÃ¡fica de um celular costuma ser um dos componentes que as pessoas mais valorizam. Mas vocÃª sabia que elas sÃ£o sensÃ­veis e podem estragar dependendo da forma utilizada? Pensando ni… [+2888 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Tinhte.vn"
+},
+"author": "no-reply@tinhte.vn (Nam Air), Nam Air",
+"title": "Một điều mình cực kỳ thích và một điều hơi ghét trên AirPods Pro 2 mà chưa nghe ai nói",
+"description": "Mình rất trông chờ Apple bán cái AirPods Pro 2 bản USB-C để mình … mua bản lightning với giá tốt hơn. Và cuối cùng mình đã sở hữu được bộ tai nghe không dây tốt nhất dành cho anh em iPhone rồi :D.\nSau khoảng 2 tuần sử dụng AirPods Pro 2 thì ngoài…",
+"url": "https://tinhte.vn/thread/mot-dieu-minh-cuc-ky-thich-va-mot-dieu-hoi-ghet-tren-airpods-pro-2-ma-chua-nghe-ai-noi.3733272/",
+"urlToImage": "https://photo2.tinhte.vn/data/attachment-files/2023/10/8168060_Cover.jpg",
+"publishedAt": "2023-10-30T03:31:05Z",
+"content": "trên AirPods Pro 2 thì tri nghim này tht tuyt vi. Mình nhn chuyn t chng n sang Adaptive và âm thanh môi trng chuyn vào tai mt cách nh nhàng, t tn, không h b n, không b tn công bi ting n môi trng mà v… [+1153 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ComingSoon.net"
+},
+"author": "Tamal Kundu",
+"title": "Servant Season 1 Streaming: Watch & Stream Online via Apple TV Plus",
+"description": "Want to know where to watch and stream Servant Season 1 online? You have come to the right place. The inaugural season of the psychological horror series has 10 episodes that originally aired on Apple TV Plus between November 28, 2019, and January 17, 2020. T…",
+"url": "https://www.comingsoon.net/guides/news/1381675-servant-season-1-streaming-watch-stream-online-via-apple-tv-plus",
+"urlToImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/10/Servant-Season-1.jpg?resize=1200,630",
+"publishedAt": "2023-10-30T05:12:15Z",
+"content": "Want to know where to watch and stream Servant Season 1 online? You have come to the right place. The inaugural season of the psychological horror series has 10 episodes that originally aired on Appl… [+2344 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ComingSoon.net"
+},
+"author": "Disheeta Maheshwari",
+"title": "Messi Meets America Season 1 Streaming: Watch & Stream Online via Apple TV Plus",
+"description": "Messi Meets America Season 1 is one of the most highly-anticipated documentaries of this year. It will follow Lionel Messi, one of the most talented soccer players in the world, as he moves from Paris Saint-Germain to Inter Miami in 2023. It will also showcas…",
+"url": "https://www.comingsoon.net/guides/news/1381005-messi-meets-america-season-1-streaming-watch-stream-online-via-apple-tv-plus",
+"urlToImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/10/Messi-Meets-America-Season-1.jpeg?resize=1200,630",
+"publishedAt": "2023-10-30T05:39:44Z",
+"content": "Messi Meets America Season 1 is one of the most highly-anticipated documentaries of this year. It will follow Lionel Messi, one of the most talented soccer players in the world, as he moves from Pari… [+2251 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ComingSoon.net"
+},
+"author": "Tamal Kundu",
+"title": "Servant Season 3 Streaming: Watch & Stream Online via Apple TV Plus",
+"description": "If you are about where to watch and stream Servant Season 3 online, we got you covered. Season 3, comprising 10 episodes, started streaming between January 21, 2022, and March 25, 2022. At the start of season 3, it has been three months since Jericho’s spirit…",
+"url": "https://www.comingsoon.net/guides/news/1381681-servant-season-3-streaming-watch-stream-online-via-apple-tv-plus",
+"urlToImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/10/Servant-Season-3.jpg?resize=1200,630",
+"publishedAt": "2023-10-30T05:16:31Z",
+"content": "If you are about where to watch and stream Servant Season 3 online, we got you covered. Season 3, comprising 10 episodes, started streaming between January 21, 2022, and March 25, 2022. At the start … [+2147 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ComingSoon.net"
+},
+"author": "Tamal Kundu",
+"title": "Servant Season 2 Streaming: Watch & Stream Online via Apple TV Plus",
+"description": "Wondering where to watch and stream Servant Season 2 online? You have come to the right place. The 10 episodes of the second season began streaming between January 15 and March 19, 2021. In season 2, Dorothy is no longer convinced by the reborn doll, but she …",
+"url": "https://www.comingsoon.net/guides/news/1381678-servant-season-2-streaming-watch-stream-online-via-apple-tv-plus",
+"urlToImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/10/Servant-Season-2.jpg?resize=1200,630",
+"publishedAt": "2023-10-30T05:15:01Z",
+"content": "Wondering where to watch and stream Servant Season 2 online? You have come to the right place. The 10 episodes of the second season began streaming between January 15 and March 19, 2021. In season 2,… [+2210 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ComingSoon.net"
+},
+"author": "Anubhav Chaudhry",
+"title": "Prehistoric Planet Season 1 Streaming: Watch & Stream Online via Apple TV Plus",
+"description": "Prehistoric Planet Season 1 is a thrilling documentary series that takes viewers on a journey through Earth’s ancient history, showcasing the incredible creatures that once roamed the planet. Here’s how you can watch and stream Prehistoric Planet via streamin…",
+"url": "https://www.comingsoon.net/guides/news/1381750-prehistoric-planet-season-1-streaming-watch-stream-online-via-apple-tv-plus",
+"urlToImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/10/Prehistoric-Planet-Season-1.jpeg?resize=1200,630",
+"publishedAt": "2023-10-30T05:20:13Z",
+"content": "Prehistoric Planet Season 1 is a thrilling documentary series that takes viewers on a journey through Earths ancient history, showcasing the incredible creatures that once roamed the planet.\r\nHeres h… [+2038 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ComingSoon.net"
+},
+"author": "Anubhav Chaudhry",
+"title": "Prehistoric Planet Season 2 Streaming: Watch & Stream Online via Apple TV Plus",
+"description": "Prehistoric Planet Season 2 continues the captivating journey through Earth’s ancient history, delving deeper into the world of majestic dinosaurs and extraordinary creatures that once ruled the planet. With stunning visuals and expert narration, this documen…",
+"url": "https://www.comingsoon.net/guides/news/1381752-prehistoric-planet-season-2-streaming-watch-stream-online-via-apple-tv-plus",
+"urlToImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/10/Prehistoric-Planet-Season-2.jpeg?resize=1200,630",
+"publishedAt": "2023-10-30T05:26:34Z",
+"content": "Prehistoric Planet Season 2 continues the captivating journey through Earths ancient history, delving deeper into the world of majestic dinosaurs and extraordinary creatures that once ruled the plane… [+2239 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ComingSoon.net"
+},
+"author": "Namrataghosh",
+"title": "Truth Be Told Season 2 Streaming: Watch & Stream Online via Apple TV Plus",
+"description": "Truth Be Told Season 2 is a crime drama television series created by Nichelle Tramble Spellman, that follows a true crime podcaster who revisits the murder that she had covered years ago, which catapulted her to fame. The second season of the show came out on…",
+"url": "https://www.comingsoon.net/guides/news/1381736-truth-be-told-season-2-streaming-watch-stream-online-via-apple-tv-plus",
+"urlToImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/10/Truth-be-Told-Season-2.jpg?resize=1200,630",
+"publishedAt": "2023-10-30T05:47:06Z",
+"content": "Truth Be Told Season 2is a crime drama television series created by Nichelle Tramble Spellman, that follows a true crime podcaster who revisits the murder that she had covered years ago, which catapu… [+1900 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ComingSoon.net"
+},
+"author": "Namrataghosh",
+"title": "Truth Be Told Season 1 Streaming: Watch & Stream Online via Apple TV Plus",
+"description": "Truth Be Told Season 1 is a 2019 crime drama television series by Nichelle Tramble Spellman, based on the novel “Are You Sleeping” by Kathleen Barber, that follows a true crime podcaster who reopens an old case. The show debuted on December 6, 2019, and the f…",
+"url": "https://www.comingsoon.net/guides/news/1381734-truth-be-told-season-1-streaming-watch-stream-online-via-apple-tv-plus",
+"urlToImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/10/Truth-be-Told-Season-1.jpg?resize=1200,630",
+"publishedAt": "2023-10-30T05:44:30Z",
+"content": "Truth Be Told Season 1 is a 2019 crime drama television series by Nichelle Tramble Spellman, based on the novel Are You Sleeping by Kathleen Barber, that follows a true crime podcaster who reopens an… [+1827 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ComingSoon.net"
+},
+"author": "Namrataghosh",
+"title": "Servant Season 4 Streaming: Watch & Stream Online via Apple TV Plus",
+"description": "Servant Season 4 is the final season of the psychological horror series created by Tony Basgallop, with M. Night Shyamalan as the showrunner. It follows the Turners who hire a nanny for their reborn doll Jericho, which leads to a series of eerie events in the…",
+"url": "https://www.comingsoon.net/guides/news/1381713-servant-season-4-streaming-watch-stream-online-via-apple-tv-plus",
+"urlToImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/10/Servant-Season-4.jpg?resize=1200,630",
+"publishedAt": "2023-10-30T05:18:12Z",
+"content": "Servant Season 4 is the final season of the psychological horror series created by Tony Basgallop, with M. Night Shyamalan as the showrunner. It follows the Turners who hire a nanny for their reborn … [+2251 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ComingSoon.net"
+},
+"author": "Tamal Kundu",
+"title": "The Enfield Poltergeist Season 2 Release Date Rumors: Is It Coming Out?",
+"description": "Ever since the first season dropped, fans have been curious about the The Enfield Poltergeist Season 2 release date. The Enfield Poltergeist is a four-part horror series that delves deep into one of the most renowned claim supernatural incidents of recent tim…",
+"url": "https://www.comingsoon.net/guides/news/1381608-the-enfield-poltergeist-season-2-release-date-rumors-is-it-coming-out",
+"urlToImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/10/The-Enfield-Poltergeist-Season-2.jpg?resize=1200,630",
+"publishedAt": "2023-10-30T04:32:15Z",
+"content": "Ever since the first season dropped, fans have been curious about the The Enfield Poltergeist Season 2 release date. The Enfield Poltergeist is a four-part horror series that delves deep into one of … [+1569 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "3dnews.ru"
+},
+"author": null,
+"title": "Обновляемые в конце следующего года наушники Apple AirPods Max будут довольствоваться старым чипом H1",
+"description": "Колумнист Bloomberg Марк Гурман (Mark Gurman) уже отмечал на прошлой неделе, что в ближайшие пару лет компания Apple обновит семейства наушников, которые выпускает, но об изменениях характеристик самых крупных из них — AirPods Max, сообщил весьма скупо. Помим…",
+"url": "https://3dnews.ru/1095194/obnovlyaemie-v-kontse-sleduyushchego-goda-naushniki-apple-airpods-max-budut-dovolstvovatsya-starim-chipom-h1",
+"urlToImage": "https://3dnews.ru/assets/external/illustrations/2023/10/30/1095194/airpods_max.jpg",
+"publishedAt": "2023-10-30T04:34:00Z",
+"content": "Bloomberg (Mark Gurman) , Apple , , — AirPods Max, . USB-C, , , AirPods Pro 2 H2.\r\n: Apple\r\n, USB-C Apple . , Apple AirPods Max , , , . Apple AirPods Pro H2 , AirPods Max, , , .\r\n , H2 iOS 17 AirPods… [+35 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Sspai.com"
+},
+"author": "TomBen",
+"title": "Keyboard Maestro 11 更新，这些功能值得关注",
+"description": "2023年10月24日，StairwaysSoftware发布了KeyboardMaestro的大版本更新——KeyboardMaestro11。经过一年多的打磨，除了修复常规的bug以外，Stair ...查看全文",
+"url": "https://sspai.com/post/83932",
+"urlToImage": "https://cdn.sspai.com/10/30/2023/article/83488e1a-e0f4-9861-7e25-8a5f4b3f4765.png",
+"publishedAt": "2023-10-30T03:32:50Z",
+"content": "2023 10 24 Stairways Software Keyboard Maestro Keyboard Maestro 11\r\n bug Stairways Software Keyboard Maestro New Macro WizardSecurity preference panekeyboardmaestro Apple \r\nKeyboard Maestro 11 36 3 1… [+3724 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Tinhte.vn"
+},
+"author": "no-reply@tinhte.vn (cuhiep), cuhiep",
+"title": "3 chiếc máy tính Apple cần được nâng cấp",
+"description": "Trước tiên xác định nó là sự kiện cho máy tính Apple và các sản phẩm liên quan máy tính nên mình ngồi nghĩ lại xem những gì là những thứ mà Apple có thể làm ra để thoả mãn được nhu cầu, mong muốn của người dùng.",
+"url": "https://tinhte.vn/thread/3-chiec-may-tinh-apple-can-duoc-nang-cap.3733241/",
+"urlToImage": "https://photo2.tinhte.vn/data/attachment-files/2023/10/8168029_scaryfast.jpg",
+"publishedAt": "2023-10-30T00:46:35Z",
+"content": "MacBook nh gn, mng nh 12\" ã dng t nm 2019 cha c nâng cp.im giá tr nht ca MacBook ó là tính nh gn và c ng. Ch 12\" và rt mng và nh. Nu thi im này Apple ra mt chic tng t thì phn hiu nng ã c gii quyt c b… [+752 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Cool3c.com"
+},
+"author": "Chevelle.fu",
+"title": "高通以兩種參考設計真實世界跑分大秀 Snapdragon X Elite 效能肌肉， CPU 單核媲美 Intel 桌上型處理器表現、 AI 性能輾壓所有競品",
+"description": "以往高通 Qualcomm 在介紹行動 PC 平台時多半對效能跑分較為輕描淡寫，把產品重心放在連網能力與續航力；然而第一款採用自主研發 CPU 架構的 Snapdragon X Elite 則來勢洶洶，直接在 2023 年 10 月底的 Snapdragon Summit 2023 秀出數據左打 AMD 與 Intel 的 x86 處理器、右踹蘋果 Apple M 處理器，不過只公布數據當然是不夠的，高通在 Snapdragon Summit 2023 的最後一天秘密邀請技術相關編輯直接觀看官方工作人員的實機效能…",
+"url": "https://www.cool3c.com/article/202409",
+"urlToImage": "https://sw.cool3c.com/user/29442/2023/d399372e-4357-406e-9e93-f86e4bcdfa99.jpg?auto=compress&fix=max&w=2560",
+"publishedAt": "2023-10-30T02:09:54Z",
+"content": "Qualcomm PC CPU Snapdragon X Elite 2023 10 Snapdragon Summit 2023 AMD Intel x86 Apple M Snapdragon Summit 2023 Cinebench 2024 Intel i9 Oryon \r\n80W 23W \r\n15.6 4K AUO\r\nLinux i9-13980HX\r\nWindows 23W i7-… [+238 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Theawesomer.com"
+},
+"author": "Paul Strauss",
+"title": "Driven: 2023 Ford F-150 Raptor R",
+"description": "When it comes to high-horsepower, off-road-capable trucks, few vehicles can compete with the Ford F-150 Raptor R. This souped-up pickup packs a 700-horsepower, supercharged V8 engine, a Baja-tuned suspension, and massive all-terrain tires. We spent a week liv…",
+"url": "https://theawesomer.com/2023-ford-f-150-raptor-r-review/720089/",
+"urlToImage": "https://theawesomer.com/photos/2023/10/2023_ford_raptor_r_1.jpg",
+"publishedAt": "2023-10-30T02:03:17Z",
+"content": "car reviews | ford | ford f-150 | ford raptor | reviews | trucks\r\nWhen it comes to high-horsepower, off-road-capable trucks, few vehicles can compete with the Ford F-150 Raptor R. This souped-up pick… [+6274 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Sspai.com"
+},
+"author": "少数派编辑部",
+"title": "派早报：X 新增两档订阅方案，多部门负责人解读未成年人网络保护条例",
+"description": "你可能错过的新鲜事X新增两档订阅方案10月27日，X（原推特）正式公布了此前已被广泛报道的两档新增订阅方案。其中，Premium+每月收费16美元，相比于此前已有的Premium（每月8美元），主要增 ...查看全文",
+"url": "https://sspai.com/post/83931",
+"urlToImage": "https://cdn.sspai.com/10/29/2023/article/e5d4ff18-68a1-5e64-9a5c-5017ef0df17a.png",
+"publishedAt": "2023-10-30T01:00:29Z",
+"content": "X \r\n10 27 XPremium+ 16 Premium 8 3 \r\nX \r\n10 27 2024 1 1 \r\nFTX \r\n10 28 FTX Sam Bankman-FriedSBF\r\nSBF FTX FTX Alameda Research Alameda FTX \r\nSBF 80 20 Alameda SBF CEO 12 22 \r\nSBF \r\nApple AirPods Max \r\n… [+193 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Sapo.pt"
+},
+"author": "Pedro Simões",
+"title": "Apple só deverá apresentar os novos AirPods Max com USB-C no final de 2024",
+"description": "A Apple está num processo de mudança para a interface USB-C, com ainda alguns dispositivos a estarem fora desta alteração necessária. Se o iPhone ou o iPad já fizeram este caminho, é agora hora...",
+"url": "https://pplware.sapo.pt/apple/apple-so-devera-apresentar-os-novos-airpods-max-com-usb-c-no-final-de-2024/",
+"urlToImage": "https://pplware.sapo.pt/wp-content/uploads/2022/06/airpods_codec00.jpg",
+"publishedAt": "2023-10-30T00:30:12Z",
+"content": "A Apple está num processo de mudança para a interface USB-C, com ainda alguns dispositivos a estarem fora desta alteração necessária. Se o iPhone ou o iPad já fizeram este caminho, é agora hora dos A… [+1821 chars]"
+},
+{
+"source": {
+"id": "fox-sports",
+"name": "Fox Sports"
+},
+"author": null,
+"title": "Diamondbacks respond to Rangers' 'Heim Hammer' with new World Series ballpark food",
+"description": "The World Series is back in Arizona, and Chase Field is adding some \"championship caliber\" of its own after the \"Heim Hammer\" dish at the Rangers' Globe Life Field went viral.",
+"url": "https://www.foxsports.com/stories/mlb/diamondbacks-respond-to-rangers-heim-hammer-with-new-world-series-ballpark-food",
+"urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2023/10/1408/814/ChaseField2.jpg?ve=1&tl=1",
+"publishedAt": "2023-10-30T01:30:05Z",
+"content": "While the Arizona Diamondbacks just snapped a drought of 22 years away from the World Series, one thing has remained constant through that stretch: Their home of Chase Field has consistently offered … [+2403 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Los Angeles Times"
+},
+"author": "Carlos De Loera",
+"title": "'Five Nights at Freddy's' triunfa en taquilla y recauda 78 millones de dólares en su estreno",
+"description": "'Five Nights at Freddy's' de Universal Pictures abrió con un enorme fin de semana de 78 millones de dólares, llevando a 'Taylor Swift: The Eras Tour' al segundo lugar en taquilla.",
+"url": "https://www.latimes.com/espanol/entretenimiento/articulo/2023-10-29/five-nights-at-freddys-triunfa-en-taquilla-y-recauda-78-millones-de-dolares-en-su-estreno",
+"urlToImage": "https://ca-times.brightspotcdn.com/dims4/default/1d9c11a/2147483647/strip/true/crop/3098x1626+0+219/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F90%2F44%2F7f7d471542b08ca7ecf875533e3a%2Ffilm-review-five-nights-at-freddys-93749.jpg",
+"publishedAt": "2023-10-30T01:11:10Z",
+"content": "Nada fue más aterrador este fin de semana para Taylor Swift y Martin Scorsese que Five Nights at Freddys.\r\nLa película de terror animatrónica de Universal Pictures recaudó 78 millones de dólares en t… [+4006 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Iphones.ru"
+},
+"author": "Илья Сидоров",
+"title": "Где смотреть сегодняшнюю презентацию Apple",
+"description": "Сегодня Apple проведет онлайн-презентацию. В США она начнется в 17:00, а в России — в 03:00 утра по МСК (31 сентября). Ожидается, что на мероприятии компания представит iMac и MacBook Pro с процессорами M3, а также обновленные аксессуары к ним с USB-C. В тему…",
+"url": "https://www.iphones.ru/iNotes/gde-smotret-segodnyashnyuyu-prezentaciyu-apple-10-30-2023",
+"urlToImage": "https://www.iphones.ru/wp-content/plugins/wonderm00ns-simple-facebook-open-graph-tags/fbimg.php?img=https%3A%2F%2Fwww.iphones.ru%2Fwp-content%2Fuploads%2F2023%2F10%2FIMG_0527-1.jpeg",
+"publishedAt": "2023-10-30T06:21:54Z",
+"content": "Apple -. 17:00, 03:00 (31 ). \r\n, iMac MacBook Pro M3, USB-C. \r\nApple: \r\n1. iPhones.ru, 03:00. . , .\r\n2. @iPhonesru, 03:00. .\r\n , .\r\n3. YouTube. Apple 03:00. \r\n4. Apple. 03:00. \r\n5. Apple TV. , .\r\niPh… [+23 chars]"
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "urielblanco",
+"title": "¿Qué podemos esperar del evento \"scary fast\" de Apple?",
+"description": "Apple celebrará su segundo evento de productos de la temporada, un mes después de presentar su nueva línea de iPhone 15.",
+"url": "https://cnnespanol.cnn.com/2023/10/29/que-podemos-esperar-evento-scary-fast-apple-trax/",
+"urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2023/10/Copia-de-FOTO-PARA-WP-2023-10-29T123134.593.jpg?quality=100&strip=info",
+"publishedAt": "2023-10-30T02:26:04Z",
+"content": "Apple podría lanzar nuevos modelos iMac 0:54\r\n(CNN) -- Apple celebrará su segundo evento de productos de la temporada, un mes después de presentar su nueva línea de iPhone 15.\r\nEl evento, que es solo… [+3282 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "New York Post"
+},
+"author": "Kelly Jane Torrance",
+"title": "Hamas horrors you luckily won’t see — glimpse of terror too sick for Israel to air",
+"description": "Photographs and videos showing the results of the terrorist rampage have streamed out of Israel and the Gaza Strip for weeks — some even as it was taking place.",
+"url": "https://nypost.com/2023/10/29/news/hamas-horrors-you-luckily-wont-see-glimpse-of-terror-too-sick-for-israel-to-air/",
+"urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/10/2023-10-28T210243Z_322379941_RC2X14A8PND6_RTRMADP_3_ISRAEL-PALESTINIANS-USA-PROTEST-e1698633801572.jpg?quality=75&strip=all&w=1024",
+"publishedAt": "2023-10-30T03:13:31Z",
+"content": "What does one wear to a massacre?\r\nThat was the bizarre question that came into my head as I prepared and braced myself to visit the Israeli Consulate in New York late Friday morning to watch 45 minu… [+7022 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Www.nzz.ch"
+},
+"author": "Marlen Oehler (oeh), David Vogel (dv)",
+"title": "PODCAST - Die Aga-Kröten sind nicht aufzuhalten: für Australien eine ökologische Katastrophe",
+"description": "Die eingeschleppte Kröte hat in Nordaustralien ein Massensterben ausgelöst und wird deshalb gejagt. Wissenschaftsredaktorin Stephanie Lahrtz war beim nächtlichen Krötenfang dabei.",
+"url": "https://www.nzz.ch/podcast/wie-eine-invasive-kroete-australiens-tierwelt-bedroht-nzz-akzent-ld.1760351",
+"urlToImage": "https://img.nzz.ch/2023/09/25/84379af3-6da1-41b7-8693-785fa7db3a64.jpeg?width=1200&height=675&fit=bound&quality=75&auto=webp&crop=2048,1152,x0,y106&wmark=nzz",
+"publishedAt": "2023-10-30T04:30:00Z",
+"content": "Hören und abonnieren Sie den Podcast «NZZ Akzent» auch auf Spotify,Apple Podcasts oder Castbox.\r\nHaben Sie ein Feedback zum Podcast? Sagen Sie uns Ihre Meinung.\r\nIn dieser Podcast-Episode:\r\nBei warme… [+969 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "DIE WELT"
+},
+"author": "Nando Sommerfeldt, Laurin Meyer",
+"title": "Die miese Öko-Aktien-Bilanz und der heimliche Krypto-Indikator",
+"description": "In der heutigen Folge „Alles auf Aktien“ sprechen die Finanzjournalisten Laurin Meyer und Nando Sommerfeldt über die hohen Erwartungen in der Öl-Branche, die Erleuchtung bei Signify und schwache Schweden.",
+"url": "https://www.welt.de/podcasts/alles-auf-aktien/article248262108/Boersen-Podcast-Encavis-Siemens-Energie-SMA-Solar-Die-miese-Oeko-Aktien-Bilanz.html",
+"urlToImage": "https://img.welt.de/img/podcasts/alles-auf-aktien/mobile244546174/9351353967-ci16x9-w1200/meyer-somm-DWO-Podcast-Teaser-AllesAufAktien-mit-2zu3-meyer-sommerfeld-aw.jpg",
+"publishedAt": "2023-10-30T03:51:15Z",
+"content": "Außerdem geht es um Chevron, ExxonMobil, JP Morgan, Electrolux, Siemens, Siemens Energy, Encavis, SolarEdge, SMA Solar, Nordex, Vestas, Örsted, iShares Global Clean Energy (WKN: A0MW0M), iShares MSCI… [+335 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Vnexpress.net"
+},
+"author": "VnExpress",
+"title": "ACB tung ưu đãi kép cho khách hàng gửi tiết kiệm",
+"description": "ACB ưu đãi lãi suất tiết kiệm cùng quà tặng khuyến mại để tăng hiệu quả đầu tư cho khách hàng gửi tiền tại nhà băng.",
+"url": "https://vnexpress.net/acb-tung-uu-dai-kep-cho-khach-hang-gui-tiet-kiem-4670708.html",
+"urlToImage": "https://vcdn1-kinhdoanh.vnecdn.net/2023/10/30/hi-nh-thumbnail-1698634543-6698-1698634764.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=2MgZ7o0uniJDKudyNihbyA",
+"publishedAt": "2023-10-30T03:00:00Z",
+"content": "ACB u ãi lãi sut tit kim cùng quà tng khuyn mi tng hiu qu u t cho khách hàng gi tin ti nhà bng.Khi quyt nh gi tit kim, khách hàng cn cân nhc nhiu yu t nh uy tín ca ngân hàng, k hn, phng thc gi tit ki… [+1666 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Vnexpress.net"
+},
+"author": "VnExpress",
+"title": "Bốn dòng thẻ tín dụng gắn kết gia đình của SHB",
+"description": "Chiến dịch \"Gia đình thẻ SHB - Kết nối tình thân\" cung cấp bốn dòng thẻ tín dụng quốc tế, đáp ứng nhu cầu chi tiêu của từng thành viên.",
+"url": "https://vnexpress.net/bon-dong-the-tin-dung-gan-ket-gia-dinh-cua-shb-4670445.html",
+"urlToImage": "https://vcdn1-kinhdoanh.vnecdn.net/2023/10/30/a-nh-3-1698631536-7487-1698631584.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ixntq-puwVwIj6kdryLrmg",
+"publishedAt": "2023-10-30T02:00:00Z",
+"content": "Chin dch \"Gia ình th SHB - Kt ni tình thân\" cung cp bn dòng th tín dng quc t, áp ng nhu cu chi tiêu ca tng thành viên.Ngày 28/10, SHB t chc s kin ti Trung tâm thng mi Lotte Centre Liu Giai, Hà Ni. i … [+3147 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Vnexpress.net"
+},
+"author": "VnExpress",
+"title": "Những năm cuối đời của tài tử 'Friends'",
+"description": "Matthew Perry, Chandler Bing của series \"Friends\", lao đao nhiều năm vì nghiện rượu và ma túy trước khi qua đời ở tuổi 54.",
+"url": "https://vnexpress.net/nhung-nam-cuoi-doi-cua-tai-tu-friends-4670660.html",
+"urlToImage": "https://vcdn1-giaitri.vnecdn.net/2023/10/30/matthew3-1698638787-5056-1698640406.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=N_5x7-V0_K1d4BduAXsyMQ",
+"publishedAt": "2023-10-30T05:41:16Z",
+"content": "Matthew Perry, Chandler Bing ca series \"Friends\", lao ao nhiu nm vì nghin ru và ma túy trc khi qua i tui 54.Theo TMZ hôm 29/10, ti nhà ca Perry, cnh sát tìm thy nhiu loi thuc kê n gm thuc chng trm cm… [+4750 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Elseptimoarte.net"
+},
+"author": "wanchope",
+"title": "Trolls y Freddys, Miyazaki y Scorsese, Cena y las que quedan",
+"description": "'Five Nights at Freddy's' ha recaudado uno 78 millones (siempre) de dólares en su estreno en 3.675 cines de Estados Unidos, a lo que cabe sumar otros 50 millones en el mercado internacional. Esto es, en tres días ya ha recaudado más de lo que 'El exorcista: C…",
+"url": "https://www.elseptimoarte.net/noticias/ranking-de-taquilla/trolls-y-freddys-miyazaki-y-scorsese-cena-y-las-que-quedan--46442.html",
+"urlToImage": "https://www.elseptimoarte.net/imagenes/noticias/650/124255.jpg",
+"publishedAt": "2023-10-30T05:53:07Z",
+"content": "'Five Nights at Freddy's' ha recaudado uno 78 millones (siempre) de dólares en su estreno en 3.675 cines de Estados Unidos, a lo que cabe sumar otros 50 millones en el mercado internacional. Esto es,… [+2333 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Paul Tan's Automotive News"
+},
+"author": "Gerard Lye",
+"title": "2023 Suzuki Swift Sport Silver Edition launched in Malaysia – sportier styling; 10-inch HU; from RM146k",
+"description": "Naza Eastern Motors has officially launched the new Suzuki Swift Sport Silver Edition, which arrives as a fully-imported (CBU) model that is only available for the Malaysian market. Priced at RM145,900 on-the-road without insurance, the […]\nThe post 2023 Suzu…",
+"url": "https://paultan.org/2023/10/30/2023-suzuki-swift-sport-silver-edition-launched-in-malaysia/",
+"urlToImage": "https://paultan.org/image/2023/10/2023-Suzuki-Swift-Sport-Silver-Edition-Malaysia-launch-official-1-1200x628.jpg",
+"publishedAt": "2023-10-30T01:23:42Z",
+"content": "Naza Eastern Motors has officially launched the new Suzuki Swift Sport Silver Edition, which arrives as a fully-imported (CBU) model that is only available for the Malaysian market. Priced at RM145,9… [+1753 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ifun.de › Apple-News seit 2001"
+},
+"author": "Chris",
+"title": "Apples Mac-Event: 3 neue Prozessoren und vielleicht doch ein iPad",
+"description": "Zu ungewohnter Zeit wird Apple in der kommenden Nacht neue Hardware präsentieren. Es gibt die unterschiedlichsten Spekulationen darüber, was den Hersteller dazu bringt, eine für seine europäischen Kunden so ungünstige Uhrzeit für die Produktvorstellung zu wäh…",
+"url": "https://www.ifun.de/apples-mac-event-3-neue-prozessoren-und-vielleicht-doch-ein-ipad-221415/",
+"urlToImage": "https://images.ifun.de/wp-content/uploads/2022/03/tim-cook-kino-feature.jpg",
+"publishedAt": "2023-10-30T05:52:10Z",
+"content": "Zu ungewohnter Zeit wird Apple in der kommenden Nacht neue Hardware präsentieren. Es gibt die unterschiedlichsten Spekulationen darüber, was den Hersteller dazu bringt, eine für seine europäischen Ku… [+2916 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Technews.tw"
+},
+"author": "邱 倢芯",
+"title": "蘋果證實 BMW 無線充電板會破壞 iPhone 15 NFC 晶片",
+"description": "在 iPhone 15 系列發售後不久，就有部分用戶指稱，他們的 iPhone 15 NFC 晶片在使用 BMW 原廠的無線充電板後就出現故障情況；截至目前為止，蘋果都尚未透過軟體更新來解決這項問題，不過據蘋果提供給授權維修服務提供商的一份內部備忘錄顯示，今年晚些時候的軟體更新版本應該可以防止「少數...",
+"url": "https://technews.tw/2023/10/30/bmw-iphone-15-nfc/",
+"urlToImage": "https://img.technews.tw/wp-content/uploads/2022/01/18110139/cq5dam.resized.img_.585.low_.time1629276976986.jpg",
+"publishedAt": "2023-10-30T02:41:57Z",
+"content": "iPhone 15 iPhone 15 NFC BMW iPhone 15 NFC \r\nMacrumors iPhone 15 NFC BMW Toyota Supra iPhone 15iPhone 15 PlusiPhone 15 Pro iPhone 15 Pro Max NFC \r\niPhone NFC Apple Pay Apple Pay Apple Pay\r\n iOS 17.1 i… [+49 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Technews.tw"
+},
+"author": "林 妤柔",
+"title": "查稅衝擊未歇！頭號對手立訊又來搶單，鴻海股價重挫近 4%",
+"description": "鴻海持續受旗下富士康遭中國查稅影響，今（30 日）以 98.3 元開出，雖以小紅開出，但外資沉重賣壓下翻黑，盤中下跌近 4%，暫報 94.3 元。 中媒環球時報 22 日報導，中國稅務部門近期依法對鴻海集團旗下富士康在廣東、江蘇等地的重點企業進行稅務稽查，自然資源部門對富士康在河南、湖北等地的重點企...",
+"url": "https://finance.technews.tw/2023/10/30/foxconn-1030-stock/",
+"urlToImage": "https://img.technews.tw/wp-content/uploads/2023/01/12101635/shutterstock_2138092657.jpg",
+"publishedAt": "2023-10-30T03:24:34Z",
+"content": "30 98.3 4% 94.3 \r\n 22 \r\n24 10 14%\r\n Apple Watch \r\n iPhone 15 TrendForce iPhone 15 67% iPhone 15 29% iPhone 15 Plus 65% 35%\r\n iPhone Vision Pro 40% Apple Watch \r\nshutterstock"
+},
+{
+"source": {
+"id": null,
+"name": "Technews.tw"
+},
+"author": "林 妤柔",
+"title": "蘋果 Vision Pro 明年值得期待！郭明錤：技術上比 Meta Quest 3 領先三年",
+"description": "Meta Quest 3 比蘋果 Vision Pro 早幾個月推出，天風國際證券分析師郭明錤認為，與 Meta 產品相比，蘋果 Vision Pro 技術上至少領先 Meta 約 2-3 年。 Meta Quest 3 售價 499 美元，Apple Vision Pro 售價 3,499 美元，...",
+"url": "https://technews.tw/2023/10/30/meta-quest-3-vision-pro/",
+"urlToImage": "https://img.technews.tw/wp-content/uploads/2023/01/11170543/shutterstock_2065679765-e1685578230110.jpg",
+"publishedAt": "2023-10-30T04:21:27Z",
+"content": "Meta Quest 3 Vision Pro Meta Vision Pro Meta 2-3 \r\nMeta Quest 3 499 Apple Vision Pro 3,499 Meta Quest 3 5-10% 70-80%\r\n Vision Pro Meta 2-3 Vision Pro Quest Vison Pro Quest \r\nMeta Reality Lab Meta Q4 … [+44 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Moneycontrol"
+},
+"author": "Reuters",
+"title": "Asia stocks dip on Middle East, central bank meetings",
+"description": "The earnings season also continues with Apple, Airbnb, McDonald's, Moderna and Eli Lilly &amp; Co among the many reporting this week. Results so far have been underwhelming, contributing to the S&amp;P 500's retreat into correction territory at 4,117.",
+"url": "https://www.moneycontrol.com/news/business/markets/asia-stocks-dip-on-middle-east-central-bank-meetings-11621671.html",
+"urlToImage": "https://images.moneycontrol.com/static-mcnews/2019/07/Asian-Markets-770x433.jpg",
+"publishedAt": "2023-10-30T00:50:15Z",
+"content": "Asian shares slipped on Monday as Israel's push into Gaza stirred fears of a wider conflict ahead of central bank meetings in the United States, Britain and Japan, the latter of which might see a pol… [+4298 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Berjon.com"
+},
+"author": "@robinberjon",
+"title": "You’re Gonna Need A Bigger Browser",
+"description": "Browsers are hugely load-bearing in the Web's architecture, and yet they haven't changed very much in quite a while. If the Web is indeed for user agency, we should take a hard look at our user agents to see if they might not need improvement.",
+"url": "https://berjon.com/bigger-browser/",
+"urlToImage": "https://berjon.com/bigger-browser/big-carp.jpg",
+"publishedAt": "2023-10-30T05:07:36Z",
+"content": "Putting the agent in user agent\r\nIf we're agreed that the Web is for user agency, then in order to figure out where the Web goes next we should probably spend some time looking at user agents a.k.a. … [+15200 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "Apple 苹果 iPhone 15 Pro 5G手机 128GB 蓝色钛金属 6998元",
+"description": "Apple 苹果 iPhone 15 Pro 5G手机 128GB 蓝色钛金属 6998元,什么值得买甄选出拼多多优惠促销商品,包括Apple/苹果报价、多少钱等信息,认真生活,好好花钱就上什么值得买。",
+"url": "https://www.smzdm.com/p/94372179/",
+"urlToImage": "https://y.zdmimg.com/202309/13/6500b105fc3444180.png_d250.jpg",
+"publishedAt": "2023-10-30T00:12:09Z",
+"content": "iPhone 15 Pro 6.1 ProMotion Super Retina XDR 120Hz iOS 17 187 \r\niPhone 15 Pro Action Action \r\niPhone 15 Pro A17 Pro 3nm CPU 16 10% 6 GPU 20% iPhone 15 Pro 3A\r\niPhone 15 Pro 48MP 242835mmiPhone 15 Pro… [+106 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "Apple 苹果 Watch Ultra2 智能手表 49mm 5799元（需用券）",
+"description": "玩家之道升级基于A15仿生芯片打造的S9处理器，新增双指交互手势功能。天猫精选此款目前活动售价6499元，页面领取700元优惠券，实付低至5799元包邮。",
+"url": "https://www.smzdm.com/p/94417196/",
+"urlToImage": "https://qny.smzdm.com/202309/13/6501a43ce43e44536.jpg_d250.jpg",
+"publishedAt": "2023-10-30T05:56:26Z",
+"content": "Apple Watch Ultra 2 95% Modular Ultra 3000 \r\nApple Watch Ultra 2 S9 Apple Watch Ultra S8 60% 30%2 Apple Watch Ultra iPhone\r\nApple Watch Ultra 2 Double TapDouble Tap \r\nApple Watch Ultra 2 36 72"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "百亿补贴：Apple 苹果 Watch Ultra2 智能手表 49mm 钛金属 5545元包邮",
+"description": "玩家之道升级基于A15仿生芯片打造的S9处理器，新增双指交互手势功能。拼多多此款目前活动售价5545元。",
+"url": "https://www.smzdm.com/p/94374986/",
+"urlToImage": "https://y.zdmimg.com/202310/30/653efca9da2978648.jpg_d250.jpg",
+"publishedAt": "2023-10-30T00:53:02Z",
+"content": "Apple Watch Ultra 2 95% Modular Ultra 3000 \r\nApple Watch Ultra 2 S9 Apple Watch Ultra S8 60% 30%2 Apple Watch Ultra iPhone\r\nApple Watch Ultra 2 Double TapDouble Tap \r\nApple Watch Ultra 2 36 72"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "限地区：Apple 苹果 Watch Series 9 智能手表 GPS款 41mm 星光色 橡胶表带 S/M 2499元包邮（需用券，需用北京消费券）",
+"description": "玩家之道国内京东 北京 “京彩·绿色”消费券 每日10点发放至高领1600元消费券京东“京彩·绿色”消费券，北京市的消费者可领取最多五张消费券，总面值达1600元，该券涵盖了手机、平板电脑、笔记本电脑、台式电脑、显示器、冰箱、空调等共计62个商品品类。领取时间为每天上午10点，先到先得！...",
+"url": "https://www.smzdm.com/p/94411422/",
+"urlToImage": "https://y.zdmimg.com/202309/14/650267eb910eb4587.jpg_d250.jpg",
+"publishedAt": "2023-10-30T05:24:33Z",
+"content": "Apple Watch Series 9 Apple S9 56Series 8 60%GPU30%siriAppleiPhone\r\nApple Watch Series 9200013256G\r\nApple Watch Series 9 3618"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "百亿补贴：Apple 苹果 Watch Series 9 智能手表 GPS款 41mm 2355元包邮",
+"description": "玩家之道全新S9 SiP处理器，全新操作手势。拼多多此款目前活动售价2355元。",
+"url": "https://www.smzdm.com/p/94374788/",
+"urlToImage": "https://qny.smzdm.com/202310/30/653efbe4e8cbc757.jpg_d250.jpg",
+"publishedAt": "2023-10-30T00:53:02Z",
+"content": "Apple Watch Series 9 Apple S9 56Series 8 60%GPU30%siriAppleiPhone\r\nApple Watch Series 9200013256G\r\nApple Watch Series 9 3618"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "百亿补贴：Apple 苹果 Watch Series 9 智能手表 45mm GPS款 2595元包邮",
+"description": "玩家之道全新S9 SiP处理器，全新操作手势。拼多多此款目前活动售价2595元。",
+"url": "https://www.smzdm.com/p/94374817/",
+"urlToImage": "https://y.zdmimg.com/202309/14/650267e603cea3535.jpg_d250.jpg",
+"publishedAt": "2023-10-30T00:53:02Z",
+"content": "Apple Watch Series 9 Apple S9 56Series 8 60%GPU30%siriAppleiPhone\r\nApple Watch Series 9200013256G\r\nApple Watch Series 9 3618"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "31日20点：Apple 苹果 AirPods 3 半入耳式蓝牙耳机+闪电充电盒 1149元",
+"description": "预告到手价1149元，支持88VIP消费券，自行凑单到手1058元。",
+"url": "https://www.smzdm.com/p/94380490/",
+"urlToImage": "https://qny.smzdm.com/202310/30/653f06a982c893943.jpg_d250.jpg",
+"publishedAt": "2023-10-30T05:24:33Z",
+"content": "AirPods 3D AirPods Apple Apple Music \r\n AirPods  IPX4 Apple H1 AirPods \r\n 6 4 5 AirPods 1 4 30 MagSafe"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "Apple 苹果 MacBook Air 2020款 M1 芯片版 13.3英寸 轻薄本 5069元",
+"description": "Apple 苹果 MacBook Air 2020款 M1 芯片版 13.3英寸 轻薄本 5069元,什么值得买甄选出天猫精选优惠促销商品,包括Apple/苹果报价、多少钱等信息,认真生活,好好花钱就上什么值得买。",
+"url": "https://www.smzdm.com/p/94374442/",
+"urlToImage": "https://qny.smzdm.com/202310/30/653efa332d4b75102.jpg_d250.jpg",
+"publishedAt": "2023-10-30T01:10:03Z",
+"content": "MacBook Air 13.3 2560x1600 Apple M1 MacBook Air 15 18 \r\nM1 5nm 160 M1 8 CPU 8 GPU 25000 4K 3D M1 Mac 16 11 15 \r\n 8GB 16GB 256GB 512GB1TB 2TB 1.29 30W USB-C 1 MacBook Air 3 40Gb/s 6K Wi-Fi 6"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "Apple 苹果 iPad Air（第 5 代）10.9英寸平板电脑 2022年款（64G WLAN+Cellular版/M1芯片）紫色 4299元（需用券）",
+"description": "Apple 苹果 iPad Air（第 5 代）10.9英寸平板电脑 2022年款（64G WLAN+Cellular版/M1芯片）紫色 4299元（需用券）,什么值得买甄选出京东优惠促销商品,包括Apple/苹果报价、多少钱等信息,认真生活,好好花钱就上什么值得买。",
+"url": "https://www.smzdm.com/p/94384152/",
+"urlToImage": "https://qny.smzdm.com/202203/09/62280df12c28e6283.jpg_d250.jpg",
+"publishedAt": "2023-10-30T05:08:15Z",
+"content": "iPad Air iPad Pro M1 USB-C 2 Apple Pencil \r\n M1 iPad Air 5 CPU 60% 2 iPad Air 5 12MP Center Stage 64GB256GB iPad Air 5 5G \r\n5 Touch ID iPad Air 5  Liquid Retina 500nit iPad Pro"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "数码好价早班车：苹果 iPhone 15 Pro Max 5G智能手机 百人团到手价9099元！ iPhone 15 Pro 5G智能手机 百人团低至7149元起：红米 AX6000路由器低至359元~",
+"description": "玩家之道数码产品是我们生活中不可或缺的伙伴，它们不仅提高了我们的工作效率，也丰富了我们的娱乐方式。近期，数码市场上涌现出了许多新鲜有趣的产品和技术，让我们一起来看看都有哪些吧。本文将为您介绍最新的数码资讯，包括手机、电脑、平板、相机等各类数码设备，以及智能家居、人工智能等前沿领域的最新进...",
+"url": "https://www.smzdm.com/p/94373476/",
+"urlToImage": "https://y.zdmimg.com/202310/30/653ef3d5134f66860.png_d250.jpg",
+"publishedAt": "2023-10-30T00:22:17Z",
+"content": "Apple iPhone 15 Pro Max 5G 256GB9099250512GB11099A17ProUSB-C~999925040093492509099512GB2504001134925011099~2918:20100...|269525518iPhone 15 Pro Max 6.7ProMotion Super Retina XDR 120Hz iOS 17 iPhone 1… [+2150 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "百亿补贴：Apple 苹果 iPhone 15 Pro Max 5G智能手机 256GB 8898元包邮（需用券）",
+"description": "玩家之道搭载A17 Pro芯片，更新USB-C接口，使用钛合金边框，潜望式长焦镜头~拼多多此款目前活动售价9098元，页面下单领取200元优惠券，实付低至8898元，近期好价，感兴趣的值友可以入手。",
+"url": "https://www.smzdm.com/p/94374637/",
+"urlToImage": "https://qny.smzdm.com/202310/11/65268ca8d4c711901.jpg_d250.jpg",
+"publishedAt": "2023-10-30T00:53:02Z",
+"content": "iPhone 15 Pro Max 6.7ProMotion Super Retina XDR 120Hz iOS 17 iPhone 14 Pro Max 19g\r\niPhone 15 Pro Action Action \r\niPhone 15 Pro A17 Pro 3nm CPU 16 10% 6 GPU 20% iPhone 15 Pro 3A\r\niPhone 15 Pro 48MP 2… [+135 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "百亿补贴：Apple 苹果 iPad 2022 10.9英寸平板电脑 64GB WLAN版 2660元包邮（需用券）",
+"description": "玩家之道高清屏幕，快速反应，优秀生态系统。拼多多此款目前活动售价2716元，10点抢50元优惠券，实付低至2666元，近期好价，感兴趣的值友可以入手。",
+"url": "https://www.smzdm.com/p/94375091/",
+"urlToImage": "https://qny.smzdm.com/202210/19/634f643fcc3601371.jpg_d250.jpg",
+"publishedAt": "2023-10-30T00:53:02Z",
+"content": "iPad 2022iPad ProiPad Air10.9Liquid2360*1640264PPI500nit10.9HomeIDIPad 2022LightningUSB-C\r\nA145nm118 20% 10%16A13280%12001200122°12004K240fps\r\n64GB256GBWLAN5GWi-Fi 6iPad 2022Apple PenciliPadOS 16 iPad"
+},
+{
+"source": {
+"id": null,
+"name": "Smzdm.com"
+},
+"author": null,
+"title": "百亿补贴：Apple 苹果 iPhone 15 Pro 5G智能手机 128GB 7298元包邮（需用券）",
+"description": "失散多年的二蛋全新的钛合金边框，有史以来最轻最窄边框的Pro系列，更好更清晰的深度拍照体验。拼多多此款目前活动售价7498元，页面下单领取200元优惠券，实付低至7298元，近期好价，感兴趣的值友可以入手。",
+"url": "https://www.smzdm.com/p/94399675/",
+"urlToImage": "https://qny.smzdm.com/202310/30/653f230fdf0cf7508.jpg_d250.jpg",
+"publishedAt": "2023-10-30T05:38:36Z",
+"content": "iPhone 15 Pro 6.1 ProMotion Super Retina XDR 120Hz iOS 17 187 \r\niPhone 15 Pro Action Action \r\niPhone 15 Pro A17 Pro 3nm CPU 16 10% 6 GPU 20% iPhone 15 Pro 3A\r\niPhone 15 Pro 48MP 242835mmiPhone 15 Pro… [+106 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Ozbargain.com.au"
+},
+"author": "clhonline",
+"title": "20% off Airversa Humelle Smart Humidifier Pebble Grey & Clear $199 (RRP $249.99) + Free Delivery @ Clever House",
+"description": "Key Features\n\nWorks with Apple HomeKit & Full Thread Device\n\n360º dual-stream mist output\n\nProgramable multicolour ring light\n\nSuitable for rooms up to 50 m²\n\nLarge 5.5L capacity\n\nHigh-Precision Temperature + Humidity sensor",
+"url": "https://www.ozbargain.com.au/node/808605",
+"urlToImage": "https://files.ozbargain.com.au/n/05/808605x.jpg?h=979f7773",
+"publishedAt": "2023-10-30T01:27:34Z",
+"content": "Key Features\r\nWorks with Apple HomeKit &amp; Full Thread Device\r\n360º dual-stream mist output\r\nProgramable multicolour ring light\r\nSuitable for rooms up to 50 m²\r\nLarge 5.5L capacity\r\nHigh-Precision … [+28 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Ozbargain.com.au"
+},
+"author": "superforever",
+"title": "AHGEIIY iPhone Charger Cable, Apple MFi Certified Lightning Cable 3Pack 1M $10.19 Delivered @ AHGEIIY-Au via Amazon",
+"description": "Some iPhone cable on special again, 3 x 1M for $10\n\nAbout this item\n【Apple MFi Certified Lightning Cable】AHGEIIY iPhone charger cable has an official Apple ID number means cover CE, UL, FCC compliant. This iphone lightning cable bulit-in an original lightning…",
+"url": "https://www.ozbargain.com.au/node/808634",
+"urlToImage": "https://files.ozbargain.com.au/n/34/808634x.jpg?h=eb77012f",
+"publishedAt": "2023-10-30T04:01:39Z",
+"content": "Some iPhone cable on special again, 3 x 1M for $10\r\nAbout this itemApple MFi Certified Lightning CableAHGEIIY iPhone charger cable has an official Apple ID number means cover CE, UL, FCC compliant. T… [+1411 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Ozbargain.com.au"
+},
+"author": "Pushp28",
+"title": "Apple AirPods Pro with MagSafe Charging Case [2nd Gen] [Lightning Charging port] @ $345 + Delivery [Free Click & collect]",
+"description": "AirPods Pro feature up to 2x more Active Noise Cancellation, plus Adaptive Transparency and Personalised Spatial Audio with dynamic head tracking for immersive sound. Now with multiple ear tips (XS, S, M, L) and up to 6 hours of listening time.[3]\n\nKey Featur…",
+"url": "https://www.ozbargain.com.au/node/808611",
+"urlToImage": "https://files.ozbargain.com.au/n/11/808611l.jpg?h=0be92f72",
+"publishedAt": "2023-10-30T02:17:35Z",
+"content": "**Deal get even better if you have 10% or 15% Jbhifi gift cards…\r\nAirPods Pro feature up to 2x more Active Noise Cancellation, plus Adaptive Transparency and Personalised Spatial Audio with dynamic h… [+1114 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "mobiFlip.de"
+},
+"author": "Oliver Schwuchow",
+"title": "Apple Event: Sehen wir noch eine „kleine“ iPad-Überraschung?",
+"description": "Apple hat zu einem letzten Apple Event für 2023 geladen und wird sich wohl auf den iMac mit M3-Chip und das MacBook Pro mit M3 Pro/Max fokussieren. Dazu ein bisschen USB C-Zubehör und fertig ist die Kiste. Wirklich?",
+"url": "https://www.mobiflip.de/shortnews/apple-event-ipad-mini-2023-leak/",
+"urlToImage": "https://www.mobiflip.de/wp-content/uploads/2023/10/apple-ipad-farben-header.jpg",
+"publishedAt": "2023-10-30T04:36:11Z",
+"content": "Apple hat zu einem letzten Apple Event für 2023 geladen und wird sich wohl auf den iMac mit M3-Chip und das MacBook Pro mit M3 Pro/Max fokussieren. Dazu ein bisschen USB C-Zubehör und fertig ist die … [+1477 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "International Business Times"
+},
+"author": "Floralyn Teodoro",
+"title": "ZEROBASEONE Unintentionally Compares iPhone vs. Samsung Camera: Which Is Better?",
+"description": "The ZEROBASEONE members' photos unintentionally sparked a comparison between iPhone and Samsung phone cameras.",
+"url": "https://www.ibtimes.com/zerobaseone-unintentionally-compares-iphone-vs-samsung-camera-which-better-3716898",
+"urlToImage": "https://d.ibtimes.com/en/full/4495988/zerobaseone.png",
+"publishedAt": "2023-10-30T03:28:45Z",
+"content": "KEY POINTS\r\n<ul><li>ZEROBASEONE photos taken using different phone cameras were posted online</li><li>Netizens in the comments discussed which of the two camera phones is better</li><li>ZEROBASEONE i… [+2665 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Computerwoche.de Live"
+},
+"author": "COMPUTERWOCHE",
+"title": "Future Workplace: Fünf Thesen über die Arbeitswelt der Zukunft",
+"description": "Neue Technologien sowie die Möglichkeit, standort- und uhrzeitunabhängig zu arbeiten, verändern nicht nur die Arbeitswelt, sondern auch unser Leben.",
+"url": "https://www.computerwoche.de/a/fuenf-thesen-ueber-die-arbeitswelt-der-zukunft,3615533?utm_source=Nach-Artikeltyp_1,30,119,124,125&utm_medium=RSS&utm_campaign=RSS-Feeds",
+"urlToImage": "https://images.computerwoche.de/bdb/3389149/640x360.jpg",
+"publishedAt": "2023-10-30T05:12:00Z",
+"content": "Beim Arbeitsplatz der Zukunft bedarf es einer klaren Strategie, einer Vision und eines Konzepts, mit dem alle Mitarbeitende vertraut gemacht werden.Foto: Roman Samborskyi - shutterstock.com\r\nUnterneh… [+6536 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Wetravelthere.com"
+},
+"author": "We Travel There",
+"title": "Greenwood Rising, Gathering Place & Philbrook Museum in Tulsa, Oklahoma",
+"description": "I’m really excited to interview Kevin Matthews II of Building Bread about Tulsa, Oklahoma. Kevin’s tips for the best things to do in Tulsa are awesome because he was born and raised in Tulsa and now educates first-time investors on how to enter the stock mark…",
+"url": "https://wetravelthere.com/tulsa-oklahoma-kevin-matthews-ii/",
+"urlToImage": "https://wetravelthere.com/wp-content/uploads/2500/10/Best-things-to-do-in-Tulsa-Oklahoma-Kevin-Matthews-II-Black-Wall-Street-Mural-in-the-Greenwood-District-scaled.jpg",
+"publishedAt": "2023-10-30T01:15:59Z",
+"content": "I’m really excited to interview Kevin Matthews II of Building Bread about Tulsa, Oklahoma. Kevin’s tips for the best things to do in Tulsa are awesome because he was born and raised in Tulsa and now … [+4444 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "PhoneArena"
+},
+"author": "Alan Friedman",
+"title": "BMW tells iPhone 15 users not to charge in new vehicles; Apple preps iOS update",
+"description": "Apple is reportedly prepping a software update that will exterminate a bug affecting iPhone 15 models charging wirelessly on BMWs.",
+"url": "https://www.phonearena.com/news/apple-preps-update-to-fix-issue-with-bmw-charger_id152067",
+"urlToImage": "https://m-cdn.phonearena.com/images/article/152067-wide-two_1200/BMW-tells-iPhone-15-users-not-to-charge-in-new-vehicles-Apple-preps-iOS-update.jpg",
+"publishedAt": "2023-10-30T00:02:08Z",
+"content": "Enjoy the hottest mobile tech storylines, delivered straight to your inbox."
+},
+{
+"source": {
+"id": null,
+"name": "PhoneArena"
+},
+"author": "Alan Friedman",
+"title": "Regulatory filing hints that new iPad mini could be unveiled during \"Scary fast\" event Monday",
+"description": "A regulatory agency filing indicates that Apple might introduce at least one new iPad during the \"Scary fast\" event on Monday.",
+"url": "https://www.phonearena.com/news/new-ipad-mini-scary-fast_id152068",
+"urlToImage": "https://m-cdn.phonearena.com/images/article/152068-wide-two_1200/Regulatory-filing-hints-that-new-iPad-mini-could-be-unveiled-during-Scary-fast-event-Monday.jpg",
+"publishedAt": "2023-10-30T03:39:41Z",
+"content": "Enjoy the hottest mobile tech storylines, delivered straight to your inbox."
+},
+{
+"source": {
+"id": null,
+"name": "CNA"
+},
+"author": null,
+"title": "Asia stocks dip on Middle East, central bank meetings",
+"description": "SYDNEY : Asian shares slipped on Monday as Israel's push into Gaza stirred fears of a wider conflict ahead of central bank meetings in the United States, Britain and Japan, the latter of which might see a policy tightening.The earnings season also continues w…",
+"url": "https://www.channelnewsasia.com/business/asia-stocks-dip-middle-east-central-bank-meetings-3882266",
+"urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--A-e1-GQ3--/fl_relative,g_south_east,l_one-cms:core:watermark:reuters,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2023-10-30t003541z_2_lynxmpej9t00i_rtroptp_3_global-markets.jpg?itok=A5tlVrot",
+"publishedAt": "2023-10-30T00:32:48Z",
+"content": "SYDNEY : Asian shares slipped on Monday as Israel's push into Gaza stirred fears of a wider conflict ahead of central bank meetings in the United States, Britain and Japan, the latter of which might … [+4389 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "JDN"
+},
+"author": "Théo Janvier",
+"title": "Ce produit d'Apple est le préféré des escrocs, il ne coûte rien et permet de savoir où vous êtes à chaque instant",
+"description": "Pour seulement 35 euros, des personnes malintentionnées peuvent vous suivre à la trace et commettre toutes sortes de méfaits à vos dépends.",
+"url": "https://www.journaldunet.com/ebusiness/le-net/1523033-produit-apple/",
+"urlToImage": "https://img-0.journaldunet.com/T_XrLx0yrxHexAihZvDBEUpIa2c=/1500x/smart/b5efc24285b54931842a8aaf39961c9e/ccmcms-jdn/39494187.png",
+"publishedAt": "2023-10-30T05:50:04Z",
+"content": "Pour seulement 35 euros, des personnes malintentionnées peuvent vous suivre à la trace et commettre toutes sortes de méfaits à vos dépends. \r\nLa plupart des objets connectés, comme les montres ou les… [+2703 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Meh.com"
+},
+"author": null,
+"title": "3-Pack: Statik 360 Pro 100W Universal Magnetic Charge Cable (6') 3 for $29.99",
+"description": "<ul>\n<li>These solve for every quirk the last ones had:</li>\n<li>Much stronger magnetic tips</li>\n<li>Swivel ends so they won’t immediately get pulled off</li>\n<li>They support data transfer, so they work for Apple Carplay and Android Auto</li>\n<li>The input …",
+"url": "https://meh.com/deals/3-pack-statik-360-pro-100w-universal-magnetic-charge-cable-6",
+"urlToImage": "http://d2b8wt72ktn9a2.cloudfront.net/mediocre/image/upload/c_pad,f_auto,h_600,q_auto,w_600/y6vwgwmltacwmnvhjjul.png",
+"publishedAt": "2023-10-30T04:00:00Z",
+"content": "So, to recap the last time we sold something LIKE this, the reason to buy these are simple: everything, including the iPhone, is moving to USB-C. That means, soon, you wont need lightning cables. As … [+2025 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Android Headlines"
+},
+"author": "Debasish",
+"title": "TSMC founder expresses concerns over US-China decoupling",
+"description": "Morris Chang shared his views about the US-China relations and its implications on semiconductor chip manufacturing. According to him, the US-China decoupling is slowing down the progress in the semiconductor chip manufacturing space. “I think that decoupling…",
+"url": "https://www.androidheadlines.com/2023/10/tsmc-founder-concerns-us-china-decoupling.html",
+"urlToImage": "https://www.androidheadlines.com/wp-content/uploads/2019/02/TSMC-Logo.jpg",
+"publishedAt": "2023-10-30T00:16:10Z",
+"content": "Morris Chang shared his views about the US-China relations and its implications on semiconductor chip manufacturing. According to him, the US-China decoupling is slowing down the progress in the semi… [+2171 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Smartmania.cz"
+},
+"author": "Jakub Karásek",
+"title": "200 Mpx na vše? Galaxy S24 Ultra přijde s funkcí, která pohřbí teleobjektivy",
+"description": "Samsung opět vyzdvihuje schopnosti 200Mpx snímačů Nová technologie ISOCELL Zoom Anyplace přináší novinky v oblasti bezztrátového zoomu Veškeré představené novinky zřejmě uvidíme ve smartphonu Galaxy S24 Ultra Samsung před nedávnem vydal blogový příspěvek, ve …",
+"url": "https://smartmania.cz/200-mpx-na-vse-galaxy-s24-ultra-prijde-s-funkci-ktera-pohrbi-teleobjektivy/",
+"urlToImage": "https://smartmania.cz/wp-content/uploads/2023/02/samsung_galaxy_s23_ultra.jpg",
+"publishedAt": "2023-10-30T06:00:36Z",
+"content": "<ul><li>Samsung opt vyzdvihuje schopnosti 200Mpx sníma</li><li>Nová technologie ISOCELL Zoom Anyplace pináí novinky v oblasti bezztrátového zoomu</li><li>Vekeré pedstavené novinky zejm uvidíme ve sma… [+3223 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Worldsoccertalk.com"
+},
+"author": "World Soccer Talk",
+"title": "Where to watch Ballon d'Or 2023 on US TV",
+"description": "Here are all of the details of where you can watch the 2023 Ballon d'Or ceremony on US television and via legal streaming: WHO The biggest names in soccer WHAT 2023 Ballon d'Or ceremony WHEN 2pm ET / 11am PT • Monday, October 30, 2023 WHERE Paramount+ FREE TR…",
+"url": "https://worldsoccertalk.com/tv/where-to-watch-ballon-dor-2023-on-us-tv-20231030-WST-465253.html",
+"urlToImage": "https://worldsoccertalk.com/api/request-image/?proxy=https://ds-images.bolavip.com/news/image?src=https%3A%2F%2Fimages.worldsoccertalk.com%2Fjpg%2Ffull%2FWST_20231030_WST_465253_838563.gif.jpg[ampersand]width=1200[ampersand]height=740",
+"publishedAt": "2023-10-30T04:00:00Z",
+"content": "Includes: Bundesliga &amp; La Liga\r\nSign Up"
+},
+{
+"source": {
+"id": null,
+"name": "Livedoor.jp"
+},
+"author": "rbkyn844",
+"title": "【速報】イギリス「任天堂が欲しい欲しい欲しい」",
+"description": "イギリス「任天堂が欲しい欲しい欲しい」\n\nvar microadCompass = microadCompass || {};\nmicroadCompass.queue = microadCompass.queue || [];\n\n\n\n\nmicroadCompass.queue.push({\n\"spot\": \"11cf97bbd364c255a1c676272a5f1000\"\n});",
+"url": "http://blog.livedoor.jp/rbkyn844/archives/10467037.html",
+"urlToImage": "https://livedoor.blogimg.jp/rbkyn844/imgs/4/8/4881b041-s.jpg",
+"publishedAt": "2023-10-30T05:12:09Z",
+"content": ": https://hayabusa.open2ch.net/test/read.cgi/livejupiter/1698639725/ \r\n1: 23/10/30() 13:22:05 ID:TwOn\r\n2: 23/10/30() 13:22:43 ID:Vodb\r\n8: 23/10/30() 13:25:43 ID:5xeB\r\n&gt;&gt;2\r\n3: 23/10/30() 13:22:5… [+517 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "TweakTown"
+},
+"author": "Kosta Andreadis",
+"title": "Intel isn't too worried about Arm CPUs from AMD, NVIDIA and Qualcomm running Windows",
+"description": "'We don't see these as potentially being all that significant,' Intel CEO says of NVIDIA, AMD, and Qualcomm plans to create Arm-based CPUs for Windows. Continue reading at TweakTown >",
+"url": "https://www.tweaktown.com/news/94080/intel-isnt-too-worried-about-arm-cpus-from-amd-nvidia-and-qualcomm-running-windows/index.html",
+"urlToImage": "https://static.tweaktown.com/news/9/4/94080_01_intel-isnt-too-worried-about-arm-cpus-from-amd-nvidia-and-qualcomm-running-windows_full.jpg",
+"publishedAt": "2023-10-30T04:32:03Z",
+"content": "Last week, we reported on some interesting CPU news. NVIDIA and AMD (among others) were looking at creating new CPUs using Arm technology that could run Windows. Effectively, these would be for Windo… [+1912 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Applelinkage.com"
+},
+"author": "Al",
+"title": "iPhone/iPad版「バイオハザード ヴィレッジ」配信開始　本編は11月20日（月）まで60%オフ",
+"description": "株式会社カプコンが、iPhone/iPad版「バイオハザード ヴィレッジ」［App Store］をリリースしています。 バイオハザード ヴィレッジは、iPhone 15 Pro/MaxとM1以降を搭載したiPadに対応し … 続きを読む iPhone/iPad版「バイオハザード ヴィレッジ」配信開始　本編は11月20日（月）まで60%オフ →",
+"url": "https://www.applelinkage.com/2023/10/30/biohazard-village-for-iphone-ipad/",
+"urlToImage": null,
+"publishedAt": "2023-10-30T03:10:36Z",
+"content": "iPhone/iPad App Store\r\n iPhone 15 Pro/MaxM1iPad\r\n4,990 2,00011201,9901,000\r\nMacMac App Store1,990\r\nApple Music Apple MusicApple Music3"
+},
+{
+"source": {
+"id": null,
+"name": "Fratellowatches.com"
+},
+"author": "Nacho Conde Garzón",
+"title": "Building The Perfect Watch Collection With €25,000 — Nacho’s Picks From Rolex, Omega, Tudor, And More",
+"description": "You’ve seen our picks at under €1,000, €3,000, and even €5,000. Before we climb up to the next (and final) rung of the price ladder and show you our favorite sub-€10K watches, we decided to take on a slightly different challenge. We daydream and philosophize …",
+"url": "https://www.fratellowatches.com/building-the-perfect-watch-collection-with-e25000-nachos-picks-from-rolex-omega-tudor-and-more/",
+"urlToImage": "https://www.fratellowatches.com/cdn-cgi/image/anim=false/wp-content/uploads/2021/12/Rolex-Explorer-II-16570-morgansaignes13.jpg",
+"publishedAt": "2023-10-30T06:00:37Z",
+"content": "You’ve seen our picks at under 1,000, 3,000, and even 5,000. Before we climb up to the next (and final) rung of the price ladder and show you our favorite sub-10K watches, we decided to take on a sli… [+9621 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Washington Monthly"
+},
+"author": "Will Norris",
+"title": "Winning the Anti-monopoly Game",
+"description": "Despite press accounts to the contrary, the Biden administration’s revival of antitrust policy isn’t failing. It’s just getting started.\nThe post Winning the Anti-monopoly Game appeared first on Washington Monthly.",
+"url": "http://washingtonmonthly.com/2023/10/29/winning-the-anti-monopoly-game/",
+"urlToImage": "https://washingtonmonthly.com/wp-content/uploads/2023/10/Nov-23-Khan-Norris2.jpg",
+"publishedAt": "2023-10-30T00:45:00Z",
+"content": "In the early summer of 2023, a consensus about President Joe Bidens revival of antitrust enforcement took hold in the media: It had flopped. After the Federal Trade Commission, led by Lina Khan, fail… [+28548 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Arigato-ipod.com"
+},
+"author": "Ygn",
+"title": "【ニュース】Apple Musicの最大3か月無料コード配布。「バイオハザード ヴィレッジ オリジナル・サウンドトラック コンプリートエディション」独占先行配信を記念して",
+"description": "Apple Musicで「‎バイオハザード ヴィレッジ オリジナル・サウンドトラック コンプリートエディション」が配信開始されています。 iPhone/iPad用が配信開始されたゲーム「バイオハザード ヴィレッジ」のサウ...\nThe post 【ニュース】Apple Musicの最大3か月無料コード配布。「バイオハザード ヴィレッジ オリジナル・サウンドトラック コンプリートエディション」独占先行配信を記念して first appeared on アイアリ.",
+"url": "https://arigato-ipod.com/2023/10/biohazard-village-apple-music-3-month-offer.html",
+"urlToImage": "https://arigato-ipod.com/wp/wp-content/uploads/2023/10/231030biohazardvillageapplemusic.jpg",
+"publishedAt": "2023-10-30T03:01:08Z",
+"content": "Apple Musicで「‎バイオハザード ヴィレッジ オリジナル・サウンドトラック コンプリートエディション」が配信開始されています。\niPhone/iPad用が配信開始されたゲーム「バイオハザード ヴィレッジ」のサウンドトラックです。\n\n\n2021年に発売されたサウンドトラックに収録されなかった楽曲や、追加コンテンツの楽曲を新たに110曲加え、計135曲が収録されています。\nApple Mu… [+801 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Prtimes.jp"
+},
+"author": null,
+"title": "iPhone/iPad版『バイオハザード ヴィレッジ』本日発売！　最新映像を公開！",
+"description": "[株式会社カプコン]\n[画像1: https://prtimes.jp/i/13450/4036/resize/d13450-4036-1433effc1d7913ecaf79-0.jpg ]\n\n本日発売を迎えたiPhone/iPad版『バイオハザード ヴィレッジ』。趣向を尽くしバラエティに富んだ“恐怖”と、心揺さぶ...",
+"url": "https://prtimes.jp/main/html/rd/p/000004036.000013450.html",
+"urlToImage": "https://prtimes.jp/i/13450/4036/ogp/d13450-4036-1433effc1d7913ecaf79-0.jpg",
+"publishedAt": "2023-10-30T02:08:34Z",
+"content": "iPhone/iPadPlay Before You Buy\r\nhttps://www.youtube.com/watch?v=FALetauK4c4\r\niPhone/iPad for Mac1120iPhone/iPad \r\nhttps://apps.apple.com/jp/app/biohazard-village/id6450981229\r\n60%OFF 4,990 for Mac4,9… [+1774 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Prtimes.jp"
+},
+"author": null,
+"title": "タクシーアプリ「S.RIDE(R)」、川崎・横浜エリアなどで導入台数拡大へ",
+"description": "[S.RIDE株式会社]\n[画像1: https://prtimes.jp/i/36935/144/resize/d36935-144-7d2d752809aa98fc980f-0.jpg ]\n\nタクシーアプリ 「S.RIDE」横浜・川崎・横須賀のエリアで導入台数をさらに拡大 \n\n\n　2023年11月中旬より順次、タク...",
+"url": "https://prtimes.jp/main/html/rd/p/000000144.000036935.html",
+"urlToImage": "https://prtimes.jp/i/36935/144/ogp/d36935-144-7d2d752809aa98fc980f-0.jpg",
+"publishedAt": "2023-10-30T04:00:00Z",
+"content": "202311600S.RIDE()\r\n31S.RIDE\r\nS.RIDE\r\nS.RIDE  https://www.sride.jp/jp/\r\nAIIT\r\nhttps://www.sride.jp/jp/area/////////\r\n/()/\r\nS.RIDE WALLET/ \r\nVisa / Mastercard / JCB / American Express /Diners Club / Ap… [+150 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Prtimes.jp"
+},
+"author": null,
+"title": "迫力の生演奏と高級感溢れる空間による、至高のエンターテイメントコンサート。プロ音楽ユニット「Passo a Passo」が、\"音楽で人生が豊かになる\"を実感できるコンサートを11/25（土）開催",
+"description": "[Passo a Passo]\n[画像1: https://prtimes.jp/i/89799/15/resize/d89799-15-677857d042335a5474c5-0.jpg ]\n\n\n「音楽で人生が豊かになる」が実感できるコンサート\n\n\n初めてのコンサートを体験する子供のワクワクした気持ちから、音...",
+"url": "https://prtimes.jp/main/html/rd/p/000000015.000089799.html",
+"urlToImage": "https://prtimes.jp/i/89799/15/ogp/d89799-15-625d9359341c91160639-11.png",
+"publishedAt": "2023-10-30T02:40:03Z",
+"content": "Passo a Passo \r\nPasso a Passo\r\n2\r\nPasso a Passo \r\n1834\r\n50\r\n10\r\nPasso a Passo30\r\n40\r\n60\r\n1UP\r\n60\r\n20\r\n10\r\n10\r\n60\r\n40\r\n 2\r\n1Passo a Passo\r\n201312Passo a Passo \r\n201621st CDG did fuzioninja\r\n20182nd CD… [+1577 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Prtimes.jp"
+},
+"author": null,
+"title": "【iPhone15/15Pro/15Plus/15ProMax ケース・フィルムランキング】発売から1ヵ月、いま人気のトレンドアイテム",
+"description": "[株式会社ユニケース]\n[画像1: https://prtimes.jp/i/7819/774/resize/d7819-774-bd73ceaa99227b67daa5-0.jpg ]\n\n\niPhone15シリーズが2023年9月22日に発売され、1ヵ月が経ちました。\n最新モデルのiPhone15、iPhone15 Pro、iPhone15 Pro...",
+"url": "https://prtimes.jp/main/html/rd/p/000000774.000007819.html",
+"urlToImage": "https://prtimes.jp/i/7819/774/ogp/d7819-774-bd73ceaa99227b67daa5-0.jpg",
+"publishedAt": "2023-10-30T01:10:45Z",
+"content": "iPhone1520239221iPhone15iPhone15 ProiPhone15 Pro MaxiPhone15 PlusUNiCASE iPhone15iFaceiPhoneiPhone15\r\nhttps://unicase.jp/article/6205_261728.html\r\niPhone15 TOP5\r\n1iPhone15 iFace Reflection ()iFace¥3,… [+5418 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Dark Horizons"
+},
+"author": "Garth Franklin",
+"title": "Where “Constantine 2” Stands Post-WGA Strike",
+"description": "A year after the project was first announced, filmmaker Francis Lawrence offered an update on where things stand with the planned sequel to 2005 DC Vertigo comics adaptation “Constantine”. The original film grossed over $200 million and starred Keanu Reeves a…",
+"url": "https://www.darkhorizons.com/where-constantine-2-stands-post-wga-strike/",
+"urlToImage": "https://cdndh.darkhorizons.com/wp-content/uploads/2023/10/where-constantine-2-stands-post-wga-strike.jpg",
+"publishedAt": "2023-10-30T05:50:33Z",
+"content": "A year after the project was first announced, filmmaker Francis Lawrence offered an update on where things stand with the planned sequel to 2005 DC Vertigo comics adaptation “Constantine”.\r\nThe origi… [+1914 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Letemsvetemapplem.eu"
+},
+"author": "Jiří Filip",
+"title": "iPhone 15 Pro převálcoval v testu rychlosti nejnovější Google Pixel 8 Pro",
+"description": "Že jsou iPhony díky čipům řady A, které si Apple vyvíjí sám, extrémně rychlé není již řadu let žádným tajemstvím. Uvědomujete si však, jak moc jsou vlastně rychlé oproti konkurenci? Pokud ne, nevadí. Na YouTube je totiž k dispozici spousta videí, která vám ry…",
+"url": "https://www.letemsvetemapplem.eu/2023/10/30/iphone-15-pro-prevalcoval-v-testu-rychlosti-nejnovejsi-google-pixel-8-pro/",
+"urlToImage": "https://www.letemsvetemapplem.eu/wp-content/uploads/2023/10/maxresdefault-4.jpg",
+"publishedAt": "2023-10-30T05:00:36Z",
+"content": "e jsou iPhony díky ipm ady A, které si Apple vyvíjí sám, extrémn rychlé není ji adu let ádným tajemstvím. Uvdomujete si vak, jak moc jsou vlastn rychlé oproti konkurenci? Pokud ne, nevadí. Na YouTube… [+755 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Famitsu.com"
+},
+"author": "famitsu_app",
+"title": "【配信開始】iPhone/iPad版『バイオハザード ヴィレッジ』発売！記念セールで11月20日まで60％OFF実施中",
+"description": "カプコンより新作iPhone/iPad版向けゲーム『バイオハザード ヴィレッジ』の配信スタート！",
+"url": "https://app.famitsu.com/20231030_2150361/",
+"urlToImage": "https://app.famitsu.com/wp-content/uploads/2023/10/54fffc1e1bb87f576d561b96adb7a895-174-506x254.jpg",
+"publishedAt": "2023-10-30T05:47:03Z",
+"content": "iPhone/iPad \r\n8iPhone/iPad\r\n1120499060199050\r\n1120iOS 60%OFF\r\n7 \r\nRE ENGINE8\r\nApp\r\niPhoneiPad\r\nApp\r\n16GB\r\n10Mbps3100Mbps3040300Mbps810iCloud DrivemacOSiOSMacBIOHAZARD VILLAGE\r\n[]Apple ID\r\nAppBIOHAZAR… [+2372 chars]"
+},
+{
+"source": {
+"id": "abc-news",
+"name": "ABC News"
+},
+"author": "The Associated Press",
+"title": "What to stream this week: Annette Bening, Jason Aldean, Awkwafina, NKOTB and 'Blue Eye Samurai'",
+"description": "This week’s new entertainment releases include a studio album from Jason Aldean and a posthumous release from Jimmy Buffett, a new Hulu series inspired from Charmaine Wilkerson’s novel “Black Cake” and Annette Bening portrays a real-life hero who swam ...",
+"url": "https://abcnews.go.com/Technology/wireStory/stream-week-annette-bening-jason-aldean-awkwafina-nkotb-104469459",
+"urlToImage": "https://i.abcnewsfe.com/a/45135903-23ea-43cd-801c-a605cb47b9ea/wirestory_a7ac1f3dac13f1aaded913fbcf62c9c1_16x9.jpg?w=992",
+"publishedAt": "2023-10-30T04:14:29Z",
+"content": "Awkwafina starring as a game-show-obsessed woman in Quiz Lady and the animated historical drama Blue Eye Samurai about a mixed-race, revenge-seeking female samurai in Japan are some of the new televi… [+8245 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Minatokobe.com"
+},
+"author": "酔いどれ",
+"title": "Appleの「Scary Fast」イベント：規制関連のデータベースから見えるMacBook Pro、Magic Keyboard、iPad miniなど",
+"description": "Appleの待ち遠しい「Scary Fast」イベントが太平洋時間の月曜日の午後5時(日本時間10月30日 午前9時)に迫る中、動きが見え始めています。 規制関連のデータベースを探ると、Appleが明らかにするであろう製品に関する興味深い手がかりが見えてきます。 バッテリーの再提出：新製品の予兆か？ MacRumorsの最新の発見によれば、14インチと16インチのMacBook Pro、Mac用のMagic Keyboard、iPad miniなど、いくつかのApple製品のバッテリーが、中国の規制データベースに…",
+"url": "https://minatokobe.com/wp/apple/post-93649.html",
+"urlToImage": "https://minatokobe.com/wp/wp-content/uploads/2023/10/Scary-Fast.png",
+"publishedAt": "2023-10-30T01:13:17Z",
+"content": "AppleScary Fast5(1030 9)\r\nApple\r\nMacRumors1416MacBook ProMacMagic KeyboardiPad miniApple\r\n2021202310\r\nApple Watch Series 9MacRumorsSeries 8Series 9\r\nApple\r\nBloombergMark Gurman\r\nM324iMacMagic Keyboar… [+241 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Apfelpage.de"
+},
+"author": "Ann-Kristin Stelter",
+"title": "Journal-App in iOS 17.2 eingeführt | Stiftung Warentest: iPhone 15 Pro Max erhält Bestnote | Apple-Event: Welche Macs werden gezeigt? – Daybreak Apple",
+"description": "Guten Morgen! Unter iOS 17.2 wird Apple erstmals die im Sommer angekündigte Journal-App einführen. Darüber hinaus hat das iPhone 15 Pro Max die Bestnote von Stiftung Warentest erhalten. Außerdem verschaffen wir euch einen Überblick […]",
+"url": "https://www.apfelpage.de/news/journal-app-in-ios-17-2-eingefuehrt-stiftung-warentest-iphone-15-pro-max-erhaelt-bestnote-apple-event-welche-macs-werden-gezeigt-daybreak-apple/",
+"urlToImage": "https://www.apfelpage.de/wp-content/uploads/2022/06/DayBreak-1536x865-1.png",
+"publishedAt": "2023-10-30T05:00:08Z",
+"content": "Guten Morgen! Unter iOS 17.2 wird Apple erstmals die im Sommer angekündigte Journal-App einführen. Darüber hinaus hat das iPhone 15 Pro Max die Bestnote von Stiftung Warentest erhalten. Außerdem vers… [+2324 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Ilgiornale.it"
+},
+"author": "redazione@ilgiornale-web.it (Giuditta Mosca)",
+"title": "Apple, cosa presenterà all'evento del 30 ottobre (e come seguirlo in diretta)",
+"description": "Non ci sono certezze ma solo tante voci che si rincorrono. Abbiamo individuato quelle più attendibili per anticipare cosa presenterà Apple il 30 ottobre durante l’evento Scary Fast che, bel frattempo, ha confermato soltanto l'arrivo di nuovi iMac",
+"url": "https://www.ilgiornale.it/news/hardware-e-software/apple-cosa-presenter-allevento-30-ottobre-e-seguirlo-diretta-2232168.html",
+"urlToImage": "https://img.ilgcdn.com/sites/default/files/styles/social/public/foto/2023/10/26/1698318248-apple.jpg?_=1698318248",
+"publishedAt": "2023-10-30T06:12:06Z",
+"content": "Le certezze sono due. Levento Scary Fast è stato organizzato da Apple per il 30 ottobre alle 17 locali, ossia luna di notte del 31 ottobre in Italia, e sarà incentrato soprattutto sui Mac.\r\nDa qui in… [+2653 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "New York Post"
+},
+"author": "Kelly Jane Torrance",
+"title": "Hamas horrors you luckily won’t see — glimpse of terror too sick for Israel to air",
+"description": "Photographs and videos showing the results of the terrorist rampage have streamed out of Israel and the Gaza Strip for weeks — some even as it was taking place.",
+"url": "https://nypost.com/2023/10/29/opinion/hamas-horrors-you-luckily-wont-see-glimpse-of-terror-too-sick-for-israel-to-air/",
+"urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/10/2023-10-28T210243Z_322379941_RC2X14A8PND6_RTRMADP_3_ISRAEL-PALESTINIANS-USA-PROTEST-e1698633801572.jpg?quality=75&strip=all&w=1024",
+"publishedAt": "2023-10-30T03:13:31Z",
+"content": "What does one wear to a massacre?\r\nThat was the bizarre question that came into my head as I prepared and braced myself to visit the Israeli Consulate in New York late Friday morning to watch 45 minu… [+7023 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Mercola.com"
+},
+"author": "communities@mercola.com (Dr. Joseph Mercola)",
+"title": "Documentary Explores Electromagnetic Hypersensitivity Syndrome",
+"description": "Editor’s Note: This article is a reprint. It was originally published March 2, 2019.\n\nElectromagnetic fields (EMFs) are all around us, no matter where you live these days. They emanate from power lines, televisions, household electrical wiring, appliances and…",
+"url": "https://articles.mercola.com/sites/articles/archive/2023/10/30/electromagnetic-hypersensitivity-syndrome.aspx",
+"urlToImage": "https://media.mercola.com/ImageServer/Public/2023/October/FB/electromagnetic-hypersensitivity-syndrome-fb.jpg",
+"publishedAt": "2023-10-30T00:00:00Z",
+"content": "Mercola proudly supports these charities and organizations. View All \r\nDisclaimer: The entire contents of this website are based upon the opinions of Dr. Mercola, unless otherwise noted. Individual a… [+1007 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Food Safety News"
+},
+"author": "News Desk",
+"title": "Halloween food safety: Having a spooky and safe celebration",
+"description": "As Halloween approaches, families across the nation are gearing up for a night of fun, costumes, and, of course, treats. However, amidst the excitement, it’s crucial to ensure that food poisoning doesn’t sneak into your fall festivities.  Whether you’re trick…",
+"url": "https://www.foodsafetynews.com/2023/10/halloween-food-safety-having-a-spooky-and-safe-celebration/",
+"urlToImage": "https://images.bannerbear.com/direct/y0aJ23zRDdqMxX4OGl/requests/000/044/267/779/MRj52Zwoa6xXGOKv6xWkdO3eE/e74f7ff6a8ac0d75b819f6461f45b535db3d407e.png",
+"publishedAt": "2023-10-30T04:04:00Z",
+"content": "As Halloween approaches, families across the nation are gearing up for a night of fun, costumes, and, of course, treats. However, amidst the excitement, it’s crucial to ensure that food poisoning doe… [+3874 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Onliner.by"
+},
+"author": "Onliner",
+"title": "Вот что Apple покажет на ночной презентации",
+"description": "Вторая осенняя презентация Apple пройдет непривычно поздно — 31 октября в 3 часа по белорусскому времени. Впрочем, уже сейчас можно с высокой степенью вероятности предугадать анонс новых процессоров. На это намекает даже слоган мероприятия: «Пугающе быстро».Ч…",
+"url": "https://tech.onliner.by/2023/10/30/vot-chto-apple-pokazhet-na-nochnoj-prezentacii",
+"urlToImage": "https://content.onliner.by/news/default/6271f634e6200ee52f91fa56d9241e71.jpg",
+"publishedAt": "2023-10-30T06:08:16Z",
+"content": "FAW     « Onlíner»\r\n Apple 31 3 . , . : « ».\r\n 3\r\n 3. , TSMC 3- . , 2 5- .\r\n . , 3 15% 30%.\r\niMac\r\n 3, , iMac. Apple M1, 2 . , iMac 24- , 32- 2024 .\r\n , iMac .\r\nMacBook Pro\r\n MacBook Pro 14- 16- . , … [+112 chars]"
+}
