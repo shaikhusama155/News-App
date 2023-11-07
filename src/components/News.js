@@ -7,36 +7,39 @@ export class News extends Component {
     this.state ={
       articles:[],
       loading : false,
-      page :1
+      page :1,
+      pageSize:20
     }
   }
   
  async componentDidMount(){
-    let url = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=657c6c13f2c34066ae90d51a6dcb9f12&page=1";
+  await this.fetchDate();
+ }
+  fetchData = async()=>{
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=657c6c13f2c34066ae90d51a6dcb9f12&page=${this.state.page}&pageSize=20`;
     let data = await fetch(url);
     let passedData = await data.json()
-    this.setState({articles: passedData.articles})
+    this.setState({articles: passedData.articles, totalResults: passedData.totalResults})
   }
-   goToNext = async ()=>{
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=657c6c13f2c34066ae90d51a6dcb9f12&page=${{ page: this.page + 1}}`;
-    let data = await fetch(url);
-    let passedData = await data.json()
-    this.setState({
-    page: this.page + 1,
-    articles: passedData.articles,
 
-  })
+
+   goToNext = async ()=>{
+     await this.setState(
+      {
+        page: this.state.page + 1,
+      },
+      () => this.fetchData()
+    );
+
 
   }
   goToPrev = async ()=>{
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=657c6c13f2c34066ae90d51a6dcb9f12&page=${{ page: this.page - 1}}`;
-    let data = await fetch(url);
-    let passedData = await data.json()
-    this.setState({
-    page: this.page - 1,
-    articles: passedData.articles,
-
-  })
+    await this.setState(
+      {
+        page: this.state.page - 1,
+      },
+      () => this.fetchData()
+    );
 
   }
   render() {
@@ -51,8 +54,8 @@ export class News extends Component {
         })}
         </div>  
         <div className='container d-flex justify-content-between mt-10'>
-        <button disabled={this.state.page <=1} type="button" onClick={this.goToPrev} class="btn btn-dark">&larr; Previous</button>
-        <button type="button" onClick={this.goToNext} class="btn btn-dark">Next &rarr;</button>
+        <button disabled={this.state.page <=1} type="button" onClick={this.goToPrev} className="btn btn-dark">&larr; Previous</button>
+        <button type="button" onClick={this.goToNext} className="btn btn-dark">Next &rarr;</button>
           </div> 
       </div>
     )
