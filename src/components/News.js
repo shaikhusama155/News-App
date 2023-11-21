@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import NewsItems from './NewsItems'
+import Spinner from './Spinner';
 
 export class News extends Component {
   constructor(){
@@ -13,39 +14,48 @@ export class News extends Component {
   }
   
  async componentDidMount(){
-  await this.fetchDate();
- }
-  fetchData = async()=>{
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=657c6c13f2c34066ae90d51a6dcb9f12&page=${this.state.page}&pageSize=20`;
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=657c6c13f2c34066ae90d51a6dcb9f12&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    this.setState({loading:true})
     let data = await fetch(url);
     let passedData = await data.json()
-    this.setState({articles: passedData.articles, totalResults: passedData.totalResults})
+    console.log(passedData)
+    this.setState({articles: passedData.articles, totalResults: passedData.totalResults,loading:false})
   }
 
 
    goToNext = async ()=>{
-     await this.setState(
-      {
-        page: this.state.page + 1,
-      },
-      () => this.fetchData()
-    );
+    if(this.state.page + 1 > Math.ceil(this.state.totalResults/this.props.pageSize)){
 
+    }
+    else{
+      let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=657c6c13f2c34066ae90d51a6dcb9f12&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+      let data = await fetch(url);
+      let passedData = await data.json()
+      console.log("next")
+      this.setState({
+        page:this.state + 1,
+        articles:passedData.articles
+      })
+
+  }
 
   }
   goToPrev = async ()=>{
-    await this.setState(
-      {
-        page: this.state.page - 1,
-      },
-      () => this.fetchData()
-    );
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=657c6c13f2c34066ae90d51a6dcb9f12&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
+    let data = await fetch(url);
+    let passedData = await data.json()
+    console.log("previous")
+    this.setState({
+      page:this.state - 1,
+      articles:passedData.articles
+    })
 
   }
   render() {
     return (
       <div className='container' >
         <h1 style={{fontFamily:"cursive", textAlign:"center", margin:"20px", borderTop: "3px solid black",borderBottom: "3px solid black"}}>NewsMonkey - Headlines</h1>
+       {this.state.loading && <Spinner/>}
         <div className='row'>
         {this.state.articles.map((element)=>{
           return<div className='col-md-4'key={element.url}>
